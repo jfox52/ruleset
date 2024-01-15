@@ -25,7 +25,7 @@ jobs:
 
     - name: Download china-list.txt
       run: |
-        curl -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" -s -O https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/china-list.txt
+        curl -H "Authorization: token ${{ secrets.GH_TOKEN }}" -s -O https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/china-list.txt
 
     - name: Process china-list.txt
       run: |
