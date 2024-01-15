@@ -21,12 +21,13 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Update China List
-      run: |
-        wget https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/china-list.txt
-        sed -i 's/^/DOMAIN-SUFFIX,/' china-list.txt
-        git config --global user.email "${{ secrets.GH_EMAIL }}"
-        git config --global user.name "${{ secrets.GH_USERNAME }}"
-        git add china-list.txt
-        git commit -m "Update China List"
-        git push origin main
+- name: Update China List
+  run: |
+    wget https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/china-list.txt
+    sed -i 's/^/DOMAIN-SUFFIX,/' china-list.txt
+    git config --global user.email "${{ secrets.GH_EMAIL }}"
+    git config --global user.name "${{ secrets.GH_USERNAME }}"
+    git remote add origin_with_token "https://${{ secrets.GH_TOKEN }}@github.com/${{ secrets.GH_USERNAME }}/ruleset.git"
+    git add china-list.txt
+    git commit -m "Update China List"
+    git push origin_with_token main  # 或者你的主要分支
