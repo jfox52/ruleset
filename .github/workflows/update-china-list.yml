@@ -34,3 +34,5 @@ jobs:
         git add china-list.txt
         git commit -m "Update China List"
         git push
+      env:
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}
