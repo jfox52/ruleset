@@ -43,4 +43,4 @@ jobs:
 
     - name: Push Changes
       run: |
-        git push origin HEAD:main
+        git push origin HEAD:refs/heads/main
