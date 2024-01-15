@@ -2,37 +2,38 @@ name: Update China List
 
 on:
   schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
+    - cron: '0 0 * * *'  # 每天 UTC 时间 00:00 执行
 
 jobs:
   update-china-list:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
+    - name: Checkout Repository
       uses: actions/checkout@v2
 
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: 3.x
+        python-version: '3.x'
 
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
         pip install requests
 
-    - name: Run update script
+    - name: Download china-list.txt
       run: |
-        python update_china_list.py
+        curl -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" -s -O https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/china-list.txt
 
-    - name: Commit and push changes
+    - name: Process china-list.txt
       run: |
-        git config --global user.email "actions@github.com"
-        git config --global user.name "GitHub Actions"
+        sed -i 's/^/DOMAIN-SUFFIX,/' china-list.txt
+
+    - name: Commit and Push Changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
         git add china-list.txt
-        git commit -m "Update China List"
+        git commit -m "Update china-list.txt"
         git push
-      env:
-        GH_TOKEN: ${{ secrets.GH_TOKEN }}
