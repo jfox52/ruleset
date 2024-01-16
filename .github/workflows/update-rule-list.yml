@@ -6,7 +6,7 @@ on:
       - main
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 1 * * *"
 
 jobs:
   update-lists:
@@ -32,23 +32,10 @@ jobs:
       run: |
         curl -o reject-list.txt https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/reject-list.txt
 
-    - name: Add Prefix to Domain Lists and Update Timestamp
+    - name: Add Prefix to Domain Lists
       run: |
-        update_file() {
-          file=$1
-          if [[ $(head -n 1 "$file") == \#* ]]; then
-            # If the first line is a comment, replace the comment with current date-time
-            sed -i "1s/.*/# $(date '+%Y-%m-%d %H:%M:%S')/" "$file"
-          else
-            # If the first line is not a comment, add a new line with a comment and current date-time
-            sed -i "1i# $(date '+%Y-%m-%d %H:%M:%S')\\n" "$file"
-          fi
-          # Add "DOMAIN-SUFFIX," prefix to each line
-          sed -i 's/^/DOMAIN-SUFFIX,/' "$file"
-        }
-
-        update_file china-list.txt
-        update_file reject-list.txt
+        sed -i 's/^/DOMAIN-SUFFIX,/' china-list.txt
+        sed -i 's/^/DOMAIN-SUFFIX,/' reject-list.txt
 
     - name: Configure Git
       run: |
@@ -58,5 +45,5 @@ jobs:
     - name: Commit and Push Changes
       run: |
         git add china-list.txt reject-list.txt
-        git diff --quiet || git commit -m "Update China List and Reject List"
+        git commit -m "Update China List and Reject List"
         git push origin main  # 或者你的主要分支
