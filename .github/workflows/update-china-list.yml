@@ -9,7 +9,7 @@ on:
     - cron: "0 0 * * *"
 
 jobs:
-  update-china-list:
+  update-lists:
     runs-on: ubuntu-latest
 
     steps:
@@ -24,12 +24,20 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Update China List
+    - name: Update Lists
       run: |
+        # China List
         wget https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/china-list.txt
         sed -i 's/^/DOMAIN-SUFFIX,/' china-list.txt
+
+        # Reject List
+        wget https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/reject-list.txt
+        sed -i 's/^/DOMAIN-SUFFIX,/' reject-list.txt
+
+        # Commit and push
         git config --global user.email "${{ secrets.GH_EMAIL }}"
         git config --global user.name "${{ secrets.GH_USERNAME }}"
-        git add china-list.txt
-        git commit -m "Update China List"
+        git add china-list.txt reject-list.txt
+        git commit -m "Update Lists"
         git push origin main
+
