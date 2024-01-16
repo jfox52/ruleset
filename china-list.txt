@@ -1,4 +1,4 @@
-## Updated on: $(date +"%Y-%m-%d %H:%M:%S")
+## Updated on: 2024-01-16 06:42:15 UTC
 DOMAIN-SUFFIX,0-6.com
 DOMAIN-SUFFIX,00.net
 DOMAIN-SUFFIX,000.link
