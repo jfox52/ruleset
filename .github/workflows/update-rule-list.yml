@@ -28,14 +28,14 @@ jobs:
       run: |
         curl -o china-list.txt https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/china-list.txt
         if [[ ! $(head -n 1 china-list.txt) =~ ^# ]]; then
-          echo "# Updated on $(date)" | cat - china-list.txt > temp && mv temp china-list.txt
+          echo -e "# Updated on $(date)\n$(cat china-list.txt)" > china-list.txt
         fi
 
     - name: Update Reject List
       run: |
         curl -o reject-list.txt https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/reject-list.txt
         if [[ ! $(head -n 1 reject-list.txt) =~ ^# ]]; then
-          echo "# Updated on $(date)" | cat - reject-list.txt > temp && mv temp reject-list.txt
+          echo -e "# Updated on $(date)\n$(cat reject-list.txt)" > reject-list.txt
         fi
 
     - name: Add Prefix to Domain Lists
