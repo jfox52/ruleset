@@ -1,4 +1,4 @@
-name: Update Rule List
+name: Update China List and Reject List
 
 on:
   push:
@@ -45,5 +45,5 @@ jobs:
     - name: Commit and Push Changes
       run: |
         git add china-list.txt reject-list.txt
-        git commit -m "Update Rule List"
+        git commit -m "Update China List and Reject List"
         git push origin main  # 或者你的主要分支
