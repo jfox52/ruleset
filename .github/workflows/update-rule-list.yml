@@ -38,8 +38,13 @@ jobs:
 
     - name: Add Prefix to Domain Lists
       run: |
-        sed -i '2,$s/^/DOMAIN-SUFFIX,/' china-list.txt
-        sed -i '2,$s/^/DOMAIN-SUFFIX,/' reject-list.txt
+      sed -i '2,$s/^full:/DOMAIN,/' china-list.txt
+      sed -i '2,$s/^regexp:/URL-REGEX,/' china-list.txt
+      sed -i '2,$s/^[^full:|regexp:]/DOMAIN-SUFFIX,/' china-list.txt
+
+      sed -i '2,$s/^full:/DOMAIN,/' reject-list.txt
+      sed -i '2,$s/^regexp:/URL-REGEX,/' reject-list.txt
+      sed -i '2,$s/^[^full:|regexp:]/DOMAIN-SUFFIX,/' reject-list.txt
 
     - name: Configure Git
       run: |
