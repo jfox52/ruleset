@@ -30,7 +30,7 @@ jobs:
     - name: Update Proxy List
       run: |
         DATE_COMMENT="Updated on: $(date -u +"%Y-%m-%d %H:%M:%S UTC")"
-        curl -o china-list.txt https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/proxy-list.txt
+        curl -o proxy-list.txt https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/proxy-list.txt
         sed -i "1s|^|## $DATE_COMMENT\n|" proxy-list.txt
 
     - name: Update Reject List
