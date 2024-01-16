@@ -26,21 +26,21 @@ jobs:
         DATE_COMMENT="Updated on: $(date -u +"%Y-%m-%d %H:%M:%S UTC")"
         curl -o china-list.txt https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/china-list.txt
         sed -i "1s|^|# $DATE_COMMENT\n|" china-list.txt
-        sed -i '2,$ { s/^full:/DOMAIN,/; s/^regexp:/URL-REGEX,/; s/^.*/DOMAIN-SUFFIX,&/ }' china-list.txt
+        sed -i '2,$ { s/^full:/DOMAIN,/; s/^regexp:/URL-REGEX,/; /^[^DOMAIN,URL-REGEX]/ s/^.*/DOMAIN-SUFFIX,&/ }' china-list.txt
 
     - name: Update Proxy List
       run: |
         DATE_COMMENT="Updated on: $(date -u +"%Y-%m-%d %H:%M:%S UTC")"
         curl -o proxy-list.txt https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/proxy-list.txt
         sed -i "1s|^|# $DATE_COMMENT\n|" proxy-list.txt
-        sed -i '2,$ { s/^full:/DOMAIN,/; s/^regexp:/URL-REGEX,/; s/^.*/DOMAIN-SUFFIX,&/ }' proxy-list.txt
+        sed -i '2,$ { s/^full:/DOMAIN,/; s/^regexp:/URL-REGEX,/; /^[^DOMAIN,URL-REGEX]/ s/^.*/DOMAIN-SUFFIX,&/ }' proxy-list.txt
 
     - name: Update Reject List
       run: |
         DATE_COMMENT="Updated on: $(date -u +"%Y-%m-%d %H:%M:%S UTC")"
         curl -o reject-list.txt https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/reject-list.txt
         sed -i "1s|^|# $DATE_COMMENT\n|" reject-list.txt
-        sed -i '2,$ { s/^full:/DOMAIN,/; s/^regexp:/URL-REGEX,/; s/^.*/DOMAIN-SUFFIX,&/ }' reject-list.txt
+        sed -i '2,$ { s/^full:/DOMAIN,/; s/^regexp:/URL-REGEX,/; /^[^DOMAIN,URL-REGEX]/ s/^.*/DOMAIN-SUFFIX,&/ }' reject-list.txt
 
     - name: Configure Git
       run: |
