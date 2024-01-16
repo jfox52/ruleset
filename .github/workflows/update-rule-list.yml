@@ -1,4 +1,4 @@
-name: Update Rule List
+name: Update China List and Reject List
 
 on:
   push:
