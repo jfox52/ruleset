@@ -48,6 +48,6 @@ jobs:
 
     - name: Commit and Push Changes
       run: |
-        git add china-list.txt reject-list.txt
+        git add -A
         git commit -m "Update China List and Reject List"
         git push origin main
