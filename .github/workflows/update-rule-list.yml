@@ -24,6 +24,10 @@ jobs:
     - name: Install dependencies
       run: npm install
 
+    - name: Remove existing files
+      run: |
+        rm -f china-list.txt reject-list.txt
+
     - name: Update China List
       run: |
         curl -o china-list.txt https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/china-list.txt
@@ -37,22 +41,13 @@ jobs:
         sed -i 's/^/DOMAIN-SUFFIX,/' china-list.txt
         sed -i 's/^/DOMAIN-SUFFIX,/' reject-list.txt
 
-    - name: Check for changes
-      id: check_changes
-      run: |
-        if [[ -n "$(git status --porcelain)" ]]; then
-          echo "Changes detected."
-          echo "::set-output name=changes::true"
-        else
-          echo "No changes detected."
-          echo "::set-output name=changes::false"
-        fi
-
-    - name: Configure Git and Commit Changes
-      if: steps.check_changes.outputs.changes == 'true'
+    - name: Configure Git
       run: |
         git config --global user.email "${{ secrets.GH_EMAIL }}"
         git config --global user.name "${{ secrets.GH_USERNAME }}"
+
+    - name: Commit and Push Changes
+      run: |
         git add china-list.txt reject-list.txt
         git commit -m "Update China List and Reject List"
-        git push origin main  # 或者你的主要分支
+        git push origin main
