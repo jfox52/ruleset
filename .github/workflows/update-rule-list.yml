@@ -37,13 +37,22 @@ jobs:
         sed -i 's/^/DOMAIN-SUFFIX,/' china-list.txt
         sed -i 's/^/DOMAIN-SUFFIX,/' reject-list.txt
 
-    - name: Configure Git
+    - name: Check for changes
+      id: check_changes
+      run: |
+        if [[ -n "$(git status --porcelain)" ]]; then
+          echo "Changes detected."
+          echo "::set-output name=changes::true"
+        else
+          echo "No changes detected."
+          echo "::set-output name=changes::false"
+        fi
+
+    - name: Configure Git and Commit Changes
+      if: steps.check_changes.outputs.changes == 'true'
       run: |
         git config --global user.email "${{ secrets.GH_EMAIL }}"
         git config --global user.name "${{ secrets.GH_USERNAME }}"
-
-    - name: Commit and Push Changes
-      run: |
         git add china-list.txt reject-list.txt
         git commit -m "Update China List and Reject List"
         git push origin main  # 或者你的主要分支
