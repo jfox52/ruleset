@@ -1,4 +1,4 @@
-name: Update China List
+name: Update Rule List
 
 on:
   push:
@@ -7,6 +7,13 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "0 0 * * *"
+
+name: Update Lists
+
+on:
+  push:
+    branches:
+      - main  # 或者你的主要分支
 
 jobs:
   update-lists:
@@ -26,18 +33,17 @@ jobs:
 
     - name: Update Lists
       run: |
-        # China List
-        curl -o china-list.txt https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/china-list.txt
+        # Download and update china-list.txt
+        wget https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/china-list.txt -O china-list.txt
         sed -i 's/^/DOMAIN-SUFFIX,/' china-list.txt
 
-        # Reject List
-        curl -o reject-list.txt https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/reject-list.txt
+        # Download and update reject-list.txt
+        wget https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/reject-list.txt -O reject-list.txt
         sed -i 's/^/DOMAIN-SUFFIX,/' reject-list.txt
 
-        # Commit and push
+        # Commit changes
         git config --global user.email "${{ secrets.GH_EMAIL }}"
         git config --global user.name "${{ secrets.GH_USERNAME }}"
         git add china-list.txt reject-list.txt
-        git commit -m "Update Lists"
-        git push origin main
-        
+        git commit -m "Update China List and Reject List"
+        git push origin main  # 或者你的主要分支
