@@ -43,19 +43,19 @@ jobs:
       run: |
         sed -i '2,$s/^full:/DOMAIN,/' china-list.txt
         sed -i '2,$s/^regexp:/URL-REGEX,/' china-list.txt
-        sed -i '2,$!{/^full:/!{/^regexp:/!s/^/DOMAIN-SUFFIX,/}}' china-list.txt
+        sed -i '2,$!{/^DOMAIN,/!{/^URL-REGEX,/!s/^/DOMAIN-SUFFIX,/}}' china-list.txt
 
     - name: Process Proxy List
       run: |
         sed -i '2,$s/^full:/DOMAIN,/' proxy-list.txt
         sed -i '2,$s/^regexp:/URL-REGEX,/' proxy-list.txt
-        sed -i '2,$!{/^full:/!{/^regexp:/!s/^/DOMAIN-SUFFIX,/}}' proxy-list.txt
+        sed -i '2,$!{/^DOMAIN,/!{/^URL-REGEX,/!s/^/DOMAIN-SUFFIX,/}}' proxy-list.txt
 
     - name: Process Reject List
       run: |
         sed -i '2,$s/^full:/DOMAIN,/' reject-list.txt
         sed -i '2,$s/^regexp:/URL-REGEX,/' reject-list.txt
-        sed -i '2,$!{/^full:/!{/^regexp:/!s/^/DOMAIN-SUFFIX,/}}' reject-list.txt
+        sed -i '2,$!{/^DOMAIN,/!{/^URL-REGEX,/!s/^/DOMAIN-SUFFIX,/}}' reject-list.txt
 
     - name: Configure Git
       run: |
