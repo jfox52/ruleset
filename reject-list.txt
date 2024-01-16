@@ -1,3 +1,4 @@
+## Updated on: $(date +"%Y-%m-%d %H:%M:%S")
 DOMAIN-SUFFIX,0.code.cotsta.ru
 DOMAIN-SUFFIX,0.nextyourcontent.com
 DOMAIN-SUFFIX,0001.best
