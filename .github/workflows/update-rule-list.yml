@@ -8,13 +8,6 @@ on:
   schedule:
     - cron: "0 0 * * *"
 
-name: Update Lists
-
-on:
-  push:
-    branches:
-      - main  # 或者你的主要分支
-
 jobs:
   update-lists:
     runs-on: ubuntu-latest
