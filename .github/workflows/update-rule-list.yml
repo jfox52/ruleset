@@ -27,15 +27,17 @@ jobs:
     - name: Update China List
       run: |
         curl -o china-list.txt https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/china-list.txt
+        sed -i '1s/^/## Updated on: $(date +"%Y-%m-%d %H:%M:%S")\n/' china-list.txt
 
     - name: Update Reject List
       run: |
         curl -o reject-list.txt https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/reject-list.txt
+        sed -i '1s/^/## Updated on: $(date +"%Y-%m-%d %H:%M:%S")\n/' reject-list.txt
 
     - name: Add Prefix to Domain Lists
       run: |
-        sed -i 's/^/DOMAIN-SUFFIX,/' china-list.txt
-        sed -i 's/^/DOMAIN-SUFFIX,/' reject-list.txt
+        sed -i '2,$s/^/DOMAIN-SUFFIX,/' china-list.txt
+        sed -i '2,$s/^/DOMAIN-SUFFIX,/' reject-list.txt
 
     - name: Configure Git
       run: |
