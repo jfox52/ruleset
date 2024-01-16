@@ -26,6 +26,9 @@ jobs:
 
     - name: Update Lists
       run: |
+        # Delete existing files
+        rm -f china-list.txt reject-list.txt
+
         # Download and update china-list.txt
         wget https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/china-list.txt -O china-list.txt
         sed -i 's/^/DOMAIN-SUFFIX,/' china-list.txt
@@ -34,12 +37,10 @@ jobs:
         wget https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/reject-list.txt -O reject-list.txt
         sed -i 's/^/DOMAIN-SUFFIX,/' reject-list.txt
 
-        # Check if there are changes
-        if [[ $(git status --porcelain) ]]; then
-          # Commit changes
-          git config --global user.email "${{ secrets.GH_EMAIL }}"
-          git config --global user.name "${{ secrets.GH_USERNAME }}"
-          git add china-list.txt reject-list.txt
-          git commit -m "Update China List and Reject List"
-          git push origin main  # 或者你的主要分支
-        fi
+        # Commit changes
+        git config --global user.email "${{ secrets.GH_EMAIL }}"
+        git config --global user.name "${{ secrets.GH_USERNAME }}"
+        git add china-list.txt reject-list.txt
+        git commit -m "Update China List and Reject List"
+        git push origin main
+        
