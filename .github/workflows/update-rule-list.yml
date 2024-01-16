@@ -37,8 +37,9 @@ jobs:
         sed -i 's/^/DOMAIN-SUFFIX,/' china-list.txt
         sed -i 's/^/DOMAIN-SUFFIX,/' reject-list.txt
 
-    - name: Check for Changes
+    - name: Check for Changes and Commit
       run: |
+        cd $GITHUB_WORKSPACE  # 进入工作目录
         if [ -n "$(git status --porcelain)" ]; then
           git config --global user.email "${{ secrets.GH_EMAIL }}"
           git config --global user.name "${{ secrets.GH_USERNAME }}"
