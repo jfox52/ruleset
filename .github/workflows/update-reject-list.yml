@@ -1,0 +1,35 @@
+name: Update Reject List
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  update-reject-list:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '14'
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Update Reject List
+      run: |
+        wget https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/reject-list.txt
+        sed -i 's/^/DOMAIN-SUFFIX,/' reject-list.txt
+        git config --global user.email "${{ secrets.GH_EMAIL }}"
+        git config --global user.name "${{ secrets.GH_USERNAME }}"
+        git add reject-list.txt
+        git commit -m "Update Reject List"
+        git push origin main
