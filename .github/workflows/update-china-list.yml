@@ -27,11 +27,11 @@ jobs:
     - name: Update Lists
       run: |
         # China List
-        wget https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/china-list.txt
+        curl -o china-list.txt https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/china-list.txt
         sed -i 's/^/DOMAIN-SUFFIX,/' china-list.txt
 
         # Reject List
-        wget https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/reject-list.txt
+        curl -o reject-list.txt https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/reject-list.txt
         sed -i 's/^/DOMAIN-SUFFIX,/' reject-list.txt
 
         # Commit and push
@@ -40,4 +40,4 @@ jobs:
         git add china-list.txt reject-list.txt
         git commit -m "Update Lists"
         git push origin main
-
+        
