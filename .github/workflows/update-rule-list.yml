@@ -34,9 +34,12 @@ jobs:
         wget https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/reject-list.txt -O reject-list.txt
         sed -i 's/^/DOMAIN-SUFFIX,/' reject-list.txt
 
-        # Commit changes
-        git config --global user.email "${{ secrets.GH_EMAIL }}"
-        git config --global user.name "${{ secrets.GH_USERNAME }}"
-        git add china-list.txt reject-list.txt
-        git commit -m "Update China List and Reject List"
-        git push origin main  # 或者你的主要分支
+        # Check if there are changes
+        if [[ $(git status --porcelain) ]]; then
+          # Commit changes
+          git config --global user.email "${{ secrets.GH_EMAIL }}"
+          git config --global user.name "${{ secrets.GH_USERNAME }}"
+          git add china-list.txt reject-list.txt
+          git commit -m "Update China List and Reject List"
+          git push origin main  # 或者你的主要分支
+        fi
