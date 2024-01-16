@@ -1,4 +1,4 @@
-name: Update China List and Reject List
+name: Update Rule List
 
 on:
   push:
@@ -27,16 +27,10 @@ jobs:
     - name: Update China List
       run: |
         curl -o china-list.txt https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/china-list.txt
-        if [[ ! $(head -n 1 china-list.txt) =~ ^# ]]; then
-          echo -e "# Updated on $(date)\n$(cat china-list.txt)" > china-list.txt
-        fi
 
     - name: Update Reject List
       run: |
         curl -o reject-list.txt https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/reject-list.txt
-        if [[ ! $(head -n 1 reject-list.txt) =~ ^# ]]; then
-          echo -e "# Updated on $(date)\n$(cat reject-list.txt)" > reject-list.txt
-        fi
 
     - name: Add Prefix to Domain Lists
       run: |
@@ -51,5 +45,5 @@ jobs:
     - name: Commit and Push Changes
       run: |
         git add china-list.txt reject-list.txt
-        git diff --quiet || git commit -m "Update China List and Reject List"
+        git commit -m "Update Rule List"
         git push origin main  # 或者你的主要分支
