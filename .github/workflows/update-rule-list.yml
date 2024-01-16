@@ -42,12 +42,9 @@ jobs:
         git config --global user.email "${{ secrets.GH_EMAIL }}"
         git config --global user.name "${{ secrets.GH_USERNAME }}"
 
-    - name: Check for Changes
+    - name: Commit and Push Changes
       run: |
-        if git diff --quiet; then
-          echo "No changes in files, skipping commit."
-        else
-          git add china-list.txt reject-list.txt
-          git commit -m "Update China List and Reject List"
-          git push origin main  # 或者你的主要分支
-        fi
+        git add china-list.txt reject-list.txt
+        git commit -m "Update China List and Reject List"
+        git push origin main
+        
