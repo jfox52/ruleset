@@ -1,4 +1,4 @@
-# Updated on: 2024-01-22 22:34:38 UTC
+# Updated on: 2024-01-23 22:35:29 UTC
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -444,6 +444,7 @@ DOMAIN-SUFFIX,9to5toys.com
 DOMAIN-SUFFIX,9xav.cc
 DOMAIN-SUFFIX,9xlove.xyz
 DOMAIN-SUFFIX,9zipai.net
+DOMAIN-SUFFIX,a-msedge.net
 DOMAIN-SUFFIX,a-normal-day.com
 DOMAIN-SUFFIX,a-teenz.com
 DOMAIN-SUFFIX,a0pple.net
@@ -948,7 +949,6 @@ DOMAIN-SUFFIX,alphabet.com
 DOMAIN-SUFFIX,alphabet.info
 DOMAIN-SUFFIX,alphabetfinance.net
 DOMAIN-SUFFIX,alphaporno.com
-DOMAIN-SUFFIX,alphassl.com
 DOMAIN-SUFFIX,alphera.com
 DOMAIN-SUFFIX,alphera.net
 DOMAIN-SUFFIX,alpinelinux.org
@@ -2522,6 +2522,7 @@ DOMAIN-SUFFIX,binancezh.top
 DOMAIN-SUFFIX,bing
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,bing.net
+DOMAIN-SUFFIX,bing123.com
 DOMAIN-SUFFIX,bingads.com
 DOMAIN-SUFFIX,bingagencyawards.com
 DOMAIN-SUFFIX,bingapis.com
@@ -3873,6 +3874,7 @@ DOMAIN-SUFFIX,clipsbai.com
 DOMAIN-SUFFIX,clipseksi.com
 DOMAIN-SUFFIX,clitgames.com
 DOMAIN-SUFFIX,cloakpoint.com
+DOMAIN-SUFFIX,clock.isc.org
 DOMAIN-SUFFIX,clojure.org
 DOMAIN-SUFFIX,cloudapp.net
 DOMAIN-SUFFIX,cloudappsecurity.com
@@ -5302,11 +5304,11 @@ DOMAIN-SUFFIX,ecsm.vs.com
 DOMAIN-SUFFIX,ecuatorianas.best
 DOMAIN-SUFFIX,edeka
 DOMAIN-SUFFIX,edengay.net
-DOMAIN-SUFFIX,edge-skype-com.s-0001.s-msedge.net
 DOMAIN-SUFFIX,edge.steam-dns.top.comcast.net
 DOMAIN-SUFFIX,edgecastcdn.net
 DOMAIN-SUFFIX,edgedatg.com
 DOMAIN-SUFFIX,edgefonts.net
+DOMAIN-SUFFIX,edgekey.net
 DOMAIN-SUFFIX,edgemeplease.com
 DOMAIN-SUFFIX,edgesuite.net
 DOMAIN-SUFFIX,edicypages.com
@@ -7186,7 +7188,6 @@ DOMAIN-SUFFIX,globalrescue.net
 DOMAIN-SUFFIX,globalriskregulator.com
 DOMAIN-SUFFIX,globalsecurity.org
 DOMAIN-SUFFIX,globalsign-media.com
-DOMAIN-SUFFIX,globalsign.com
 DOMAIN-SUFFIX,globalsign.net
 DOMAIN-SUFFIX,globalspec.com
 DOMAIN-SUFFIX,globaltm.org
@@ -7471,7 +7472,6 @@ DOMAIN-SUFFIX,gs-discuss.com
 DOMAIN-SUFFIX,gscanada.info
 DOMAIN-SUFFIX,gsccdn.com
 DOMAIN-SUFFIX,gsearch.media
-DOMAIN-SUFFIX,gsp4-cn.ls.apple.com.edgekey.net
 DOMAIN-SUFFIX,gstatic-cn.com
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,gsuite.com
@@ -10725,6 +10725,7 @@ DOMAIN-SUFFIX,mihua.org
 DOMAIN-SUFFIX,mii
 DOMAIN-SUFFIX,miitomo.com
 DOMAIN-SUFFIX,miiverse.com
+DOMAIN-SUFFIX,mikanani.me
 DOMAIN-SUFFIX,mike.cz.cc
 DOMAIN-SUFFIX,mikesoltys.com
 DOMAIN-SUFFIX,mikrotik.com
@@ -12031,6 +12032,7 @@ DOMAIN-SUFFIX,ntdtv.com
 DOMAIN-SUFFIX,ntdtv.org
 DOMAIN-SUFFIX,ntdtvla.com
 DOMAIN-SUFFIX,ntdvn.com
+DOMAIN-SUFFIX,ntp.ripe.net
 DOMAIN-SUFFIX,ntrfun.com
 DOMAIN-SUFFIX,ntt
 DOMAIN-SUFFIX,ntten-mg.buzz
@@ -13077,6 +13079,7 @@ DOMAIN-SUFFIX,polymerhk.com
 DOMAIN-SUFFIX,polymerproject.org
 DOMAIN-SUFFIX,ponyanimalsex.com
 DOMAIN-SUFFIX,poofetish.com
+DOMAIN-SUFFIX,pool.ntp.org
 DOMAIN-SUFFIX,poolin.com
 DOMAIN-SUFFIX,poop-pee.online
 DOMAIN-SUFFIX,poopee-puke.com
@@ -14154,8 +14157,10 @@ DOMAIN-SUFFIX,s-bluemix.net
 DOMAIN-SUFFIX,s-books.com
 DOMAIN-SUFFIX,s-cashonmobile.com
 DOMAIN-SUFFIX,s-cute.com
+DOMAIN-SUFFIX,s-dc-msedge.net
 DOMAIN-SUFFIX,s-dragon.org
 DOMAIN-SUFFIX,s-microsoft.com
+DOMAIN-SUFFIX,s-msedge.net
 DOMAIN-SUFFIX,s-msft.com
 DOMAIN-SUFFIX,s-msn.com
 DOMAIN-SUFFIX,s-nbcnews.com
@@ -15196,6 +15201,7 @@ DOMAIN-SUFFIX,sstatic.net
 DOMAIN-SUFFIX,sstmlt.net
 DOMAIN-SUFFIX,ssx3.com
 DOMAIN-SUFFIX,st
+DOMAIN-SUFFIX,st.com
 DOMAIN-SUFFIX,stackage.org
 DOMAIN-SUFFIX,stackapps.com
 DOMAIN-SUFFIX,stackauth.com
@@ -15325,7 +15331,6 @@ DOMAIN-SUFFIX,stoporganharvesting.org
 DOMAIN-SUFFIX,stoptibetcrisis.net
 DOMAIN-SUFFIX,storagenewsletter.com
 DOMAIN-SUFFIX,store-bridgestonesports.com
-DOMAIN-SUFFIX,store.apple.com.edgekey.net
 DOMAIN-SUFFIX,storesense.com
 DOMAIN-SUFFIX,storiesonline.net
 DOMAIN-SUFFIX,storify.com
@@ -17709,7 +17714,6 @@ DOMAIN-SUFFIX,www-sms-apple.com
 DOMAIN-SUFFIX,www.ajsands.com
 DOMAIN-SUFFIX,www.antd.org
 DOMAIN-SUFFIX,www.aolnews.com
-DOMAIN-SUFFIX,www.apple.com.edgekey.net
 DOMAIN-SUFFIX,www.cmoinc.org
 DOMAIN-SUFFIX,www.destinationurl.com
 DOMAIN-SUFFIX,www.dwheeler.com
@@ -19209,6 +19213,8 @@ URL-REGEX,(^|\.)9cha[0-9]{2}\.cc$
 URL-REGEX,(^|\.)aipa(111|222|333|444|555|666|777|888|999)\.life$
 URL-REGEX,(^|\.)aisejushi(2|3|5|6)\.com$
 URL-REGEX,(^|\.)aiwei[1-9]{2}\.buzz$
+URL-REGEX,(^|\.)apiproxy-device-prod-nlb-.+\.amazonaws\.com$
+URL-REGEX,(^|\.)apiproxy-website-nlb-prod-.+\.amazonaws\.com$
 URL-REGEX,(^|\.)aqdk[0-9]{3}\.com$
 URL-REGEX,(^|\.)avcc1[0-9]\.com$
 URL-REGEX,(^|\.)avstar0[1-9]\.(com|me)$
@@ -19347,7 +19353,12 @@ URL-REGEX,.+\.na-siliconvalley\.tencentcos\.(cn|com(\.cn)?)$
 URL-REGEX,.+\.na-toronto\.tencentcos\.(cn|com(\.cn)?)$
 URL-REGEX,.+\.sa-saopaulo\.tencentcos\.(cn|com(\.cn)?)$
 URL-REGEX,github-production-release-asset-[0-9a-zA-Z]{6}\.s3\.amazonaws\.com
+URL-REGEX,^((((ut1-wwv)|(ntp\-(b|d|wwv))|(time(\-(([a-e]\-(g|b))|([a-e]\-wwv)))?)).nist.gov)|((ntp-c|ut1-time)|(utcnist(2|3)?)).colorado.edu)$
 URL-REGEX,^epicgames-download\d\.akamaized\.net$
 URL-REGEX,^ewcdn[0-9]{2}\.nowe\.com$
 URL-REGEX,^hses[1-7]?.akamaized.net$
+URL-REGEX,^ntp[0-7].ntp-servers.net$
+URL-REGEX,^time(.euro)?.apple.com$
+URL-REGEX,^time([1-4])?.google.com$
+URL-REGEX,^time([1-5])?.facebook.com$
 URL-REGEX,^[0-9]+vod-adaptive\.akamaized\.net$
