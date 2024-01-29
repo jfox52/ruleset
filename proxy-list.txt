@@ -1,4 +1,4 @@
-# Updated on: 2024-01-28 22:35:16 UTC
+# Updated on: 2024-01-29 22:34:07 UTC
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -1059,6 +1059,10 @@ DOMAIN-SUFFIX,amazonvideo.cc
 DOMAIN-SUFFIX,amazonvideo.com
 DOMAIN-SUFFIX,amazonvideodirect.com
 DOMAIN-SUFFIX,amazonworkdocs.com
+DOMAIN-SUFFIX,amc.com
+DOMAIN-SUFFIX,amcn.com
+DOMAIN-SUFFIX,amcnetworks.com
+DOMAIN-SUFFIX,amcplus.com
 DOMAIN-SUFFIX,amd.com
 DOMAIN-SUFFIX,amdfanstore.com
 DOMAIN-SUFFIX,amebame.com
