@@ -1,4 +1,4 @@
-# Updated on: 2024-02-07 22:35:18 UTC
+# Updated on: 2024-02-08 22:34:03 UTC
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -809,6 +809,7 @@ DOMAIN-SUFFIX,akademiye.org
 DOMAIN-SUFFIX,akadns.com
 DOMAIN-SUFFIX,akadns.net
 DOMAIN-SUFFIX,akadns6.net
+DOMAIN-SUFFIX,akadns88.net
 DOMAIN-SUFFIX,akaeai.com
 DOMAIN-SUFFIX,akafms.net
 DOMAIN-SUFFIX,akagtm.org
@@ -829,7 +830,6 @@ DOMAIN-SUFFIX,akamai-sucks.net
 DOMAIN-SUFFIX,akamai-thailand.com
 DOMAIN-SUFFIX,akamai-thailand.net
 DOMAIN-SUFFIX,akamai-trials.com
-DOMAIN-SUFFIX,akamai.com
 DOMAIN-SUFFIX,akamai.net
 DOMAIN-SUFFIX,akamaiedge.net
 DOMAIN-SUFFIX,akamaientrypoint.net
@@ -1693,6 +1693,7 @@ DOMAIN-SUFFIX,avinin.com
 DOMAIN-SUFFIX,avizoon.site
 DOMAIN-SUFFIX,avizoone.com
 DOMAIN-SUFFIX,avjb.com
+DOMAIN-SUFFIX,avjiasu.com
 DOMAIN-SUFFIX,avjoy.me
 DOMAIN-SUFFIX,avjzy67.xyz
 DOMAIN-SUFFIX,avlulu.cc
@@ -2510,6 +2511,7 @@ DOMAIN-SUFFIX,binance.net
 DOMAIN-SUFFIX,binance.org
 DOMAIN-SUFFIX,binance.vision
 DOMAIN-SUFFIX,binanceapi.com
+DOMAIN-SUFFIX,binancecnt.com
 DOMAIN-SUFFIX,binancezh.biz
 DOMAIN-SUFFIX,binancezh.cc
 DOMAIN-SUFFIX,binancezh.co
@@ -5313,6 +5315,7 @@ DOMAIN-SUFFIX,edgecastcdn.net
 DOMAIN-SUFFIX,edgedatg.com
 DOMAIN-SUFFIX,edgefonts.net
 DOMAIN-SUFFIX,edgekey.net
+DOMAIN-SUFFIX,edgekey88.net
 DOMAIN-SUFFIX,edgemeplease.com
 DOMAIN-SUFFIX,edgesuite.net
 DOMAIN-SUFFIX,edicypages.com
@@ -9264,6 +9267,7 @@ DOMAIN-SUFFIX,javmoo.xyz
 DOMAIN-SUFFIX,javmost.com
 DOMAIN-SUFFIX,javmost.xyz
 DOMAIN-SUFFIX,javmuch.com
+DOMAIN-SUFFIX,javmulu.net
 DOMAIN-SUFFIX,javnew.net
 DOMAIN-SUFFIX,javopen.co
 DOMAIN-SUFFIX,javout.co
@@ -9832,6 +9836,7 @@ DOMAIN-SUFFIX,latrobe
 DOMAIN-SUFFIX,latticedata.com
 DOMAIN-SUFFIX,launchpad.net
 DOMAIN-SUFFIX,launchpad.wang
+DOMAIN-SUFFIX,launchpadcontent.net
 DOMAIN-SUFFIX,launchpadlibrarian.com
 DOMAIN-SUFFIX,launchpadlibrarian.net
 DOMAIN-SUFFIX,launchpadlibrarian.org
@@ -16957,6 +16962,7 @@ DOMAIN-SUFFIX,virgin
 DOMAIN-SUFFIX,virginpornlinks.com
 DOMAIN-SUFFIX,virsto.com
 DOMAIN-SUFFIX,virsto.net
+DOMAIN-SUFFIX,virtualbox.org
 DOMAIN-SUFFIX,virtualearth.net
 DOMAIN-SUFFIX,virtualpartyworld.com
 DOMAIN-SUFFIX,virtualporn.com
@@ -18813,6 +18819,7 @@ DOMAIN,cbsi.live.ott.irdeto.com
 DOMAIN,cbsplaylistserver.aws.syncbak.com
 DOMAIN,cbsservice.aws.syncbak.com
 DOMAIN,cdn-spotify-experiments.conductrics.com
+DOMAIN,cdn.js7k.com
 DOMAIN,cdn.jsdelivr.net
 DOMAIN,cdngarenanow-a.akamaihd.net
 DOMAIN,chat.openai.com.cdn.cloudflare.net
