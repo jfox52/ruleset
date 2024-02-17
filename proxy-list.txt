@@ -1,4 +1,4 @@
-# Updated on: 2024-02-16 22:34:47 UTC
+# Updated on: 2024-02-17 22:33:56 UTC
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -2540,6 +2540,7 @@ DOMAIN-SUFFIX,bingagencyawards.com
 DOMAIN-SUFFIX,bingapis.com
 DOMAIN-SUFFIX,bingapistatistics.com
 DOMAIN-SUFFIX,bingo
+DOMAIN-SUFFIX,bingparachute.com
 DOMAIN-SUFFIX,bingsandbox.com
 DOMAIN-SUFFIX,bingvisualsearch.com
 DOMAIN-SUFFIX,bingworld.com
@@ -7202,6 +7203,7 @@ DOMAIN-SUFFIX,globalrescue.net
 DOMAIN-SUFFIX,globalriskregulator.com
 DOMAIN-SUFFIX,globalsecurity.org
 DOMAIN-SUFFIX,globalsign-media.com
+DOMAIN-SUFFIX,globalsign.cloud
 DOMAIN-SUFFIX,globalsign.net
 DOMAIN-SUFFIX,globalspec.com
 DOMAIN-SUFFIX,globaltm.org
@@ -17424,6 +17426,8 @@ DOMAIN-SUFFIX,wetnhorny.com
 DOMAIN-SUFFIX,wetplace.com
 DOMAIN-SUFFIX,wetpussygames.com
 DOMAIN-SUFFIX,wetsextube.com
+DOMAIN-SUFFIX,wetv.vip
+DOMAIN-SUFFIX,wetvinfo.com
 DOMAIN-SUFFIX,wexiaobo.org
 DOMAIN-SUFFIX,wezhiyong.org
 DOMAIN-SUFFIX,wezone.net
@@ -19107,6 +19111,7 @@ DOMAIN,vscode.blob.core.windows.net
 DOMAIN,vscode.search.windows.net
 DOMAIN,vsmarketplacebadge.apphb.com
 DOMAIN,weblive-hamivideo.cdn.hinet.net
+DOMAIN,wetv.qq.com
 DOMAIN,widgets.stripst.com
 DOMAIN,wip.adobe.com
 DOMAIN,wip1.adobe.com
