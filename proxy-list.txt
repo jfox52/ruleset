@@ -1,4 +1,4 @@
-# Updated on: 2024-06-03 22:35:30 UTC
+# Updated on: 2024-06-04 22:36:00 UTC
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -8936,6 +8936,7 @@ DOMAIN-SUFFIX,gandhara.ru
 DOMAIN-SUFFIX,gandi.net
 DOMAIN-SUFFIX,ganges.com
 DOMAIN-SUFFIX,ganjing.com
+DOMAIN-SUFFIX,ganjing.world
 DOMAIN-SUFFIX,ganjingworld.com
 DOMAIN-SUFFIX,gannett-cdn.com
 DOMAIN-SUFFIX,gannett.com
@@ -17547,6 +17548,7 @@ DOMAIN-SUFFIX,pttgame.com
 DOMAIN-SUFFIX,pttvan.org
 DOMAIN-SUFFIX,ptzwx.com
 DOMAIN-SUFFIX,pu82.vip
+DOMAIN-SUFFIX,pub.dev
 DOMAIN-SUFFIX,public-sex-porn.com
 DOMAIN-SUFFIX,public-trust.com
 DOMAIN-SUFFIX,publicagentxxx.com
