@@ -1,4 +1,4 @@
-# Updated on: 2024-11-10 22:36:29 UTC
+# Updated on: 2024-11-11 22:37:09 UTC
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -30601,6 +30601,8 @@ DOMAIN,na1r.services.adobe.com
 DOMAIN,nab.demdex.net
 DOMAIN,nationalaustraliaban.tt.omtrdc.net
 DOMAIN,netflix.com.edgesuite.net
+DOMAIN,notary-submissions-prod.s3-accelerate.amazonaws.com
+DOMAIN,notary-submissions-prod.s3.us-west-2.amazonaws.com
 DOMAIN,notify.ppy.sh
 DOMAIN,nurofensk-prod-env.eu-west-1.elasticbeanstalk.com
 DOMAIN,nvidia.tt.omtrdc.net
