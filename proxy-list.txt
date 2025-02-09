@@ -1,4 +1,4 @@
-# Updated on: 2025-02-08 22:35:18 UTC
+# Updated on: 2025-02-09 22:36:08 UTC
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -1085,7 +1085,6 @@ DOMAIN-SUFFIX,ahxxx.club
 DOMAIN-SUFFIX,ai-kan.net
 DOMAIN-SUFFIX,ai-wen.net
 DOMAIN-SUFFIX,ai.binwang.me
-DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,ai3sd.ac.uk
 DOMAIN-SUFFIX,ai7995.site
 DOMAIN-SUFFIX,ai91porn.cc
