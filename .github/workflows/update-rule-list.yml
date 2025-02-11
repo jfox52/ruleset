@@ -45,13 +45,10 @@ jobs:
         sed -i "1s|^|# $DATE_COMMENT\n|" reject-list.txt
         sed -i '2,$ { s/^full:/DOMAIN,/; s/^regexp:/URL-REGEX,/; /^[^DOMAIN,URL-REGEX]/ s/^.*/DOMAIN-SUFFIX,&/ }' reject-list.txt
 
-    - name: Configure Git
-      run: |
-        git config --global user.email "${{ secrets.GH_EMAIL }}"
-        git config --global user.name "${{ secrets.GH_USERNAME }}"
-
     - name: Commit and Push Changes
       run: |
+        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config user.name "github-actions[bot]"
         git add china-list.txt proxy-list.txt reject-list.txt
         git commit -m "Update Rule List"
-        git push origin main  # 或者你的主要分支
+        git push https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git main
