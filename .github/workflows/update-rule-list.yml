@@ -30,6 +30,13 @@ jobs:
         curl -o china-list.txt https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/china-list.txt
         sed -i "1s|^|# $DATE_COMMENT\n|" china-list.txt
         sed -i '2,$ { s/^full:/DOMAIN,/; s/^regexp:/URL-REGEX,/; /^[^DOMAIN,URL-REGEX]/ s/^.*/DOMAIN-SUFFIX,&/ }' china-list.txt
+    
+    - name: Update Direct List
+      run: |
+        DATE_COMMENT="Updated on: $(date -u +"%Y-%m-%d %H:%M:%S UTC")"
+        curl -o direct-list.txt https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/direct-list.txt
+        sed -i "1s|^|# $DATE_COMMENT\n|" direct-list.txt
+        sed -i '2,$ { s/^full:/DOMAIN,/; s/^regexp:/URL-REGEX,/; /^[^DOMAIN,URL-REGEX]/ s/^.*/DOMAIN-SUFFIX,&/ }' direct-list.txt
 
     - name: Update Proxy List
       run: |
@@ -49,6 +56,6 @@ jobs:
       run: |
         git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config user.name "github-actions[bot]"
-        git add china-list.txt proxy-list.txt reject-list.txt
+        git add china-list.txt direct-list.txt proxy-list.txt reject-list.txt
         git commit -m "Update Rule List"
         git push https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git main
