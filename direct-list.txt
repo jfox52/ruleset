@@ -1,4 +1,4 @@
-# Updated on: 2025-03-06 22:38:16 UTC
+# Updated on: 2025-03-07 22:34:20 UTC
 DOMAIN-SUFFIX,0.zone
 DOMAIN-SUFFIX,00.net
 DOMAIN-SUFFIX,000.link
@@ -64401,6 +64401,8 @@ DOMAIN-SUFFIX,qw5599.com
 DOMAIN-SUFFIX,qwbk.cc
 DOMAIN-SUFFIX,qweather.com
 DOMAIN-SUFFIX,qweather.net
+DOMAIN-SUFFIX,qwen.ai
+DOMAIN-SUFFIX,qwenlm.ai
 DOMAIN-SUFFIX,qwerhost.com
 DOMAIN-SUFFIX,qwfync.com
 DOMAIN-SUFFIX,qwgg.com
