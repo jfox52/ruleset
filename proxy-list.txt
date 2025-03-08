@@ -1,4 +1,4 @@
-# Updated on: 2025-03-07 22:34:20 UTC
+# Updated on: 2025-03-08 22:34:48 UTC
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -27131,6 +27131,7 @@ DOMAIN-SUFFIX,twitturly.com
 DOMAIN-SUFFIX,twitvid.com
 DOMAIN-SUFFIX,twitzap.com
 DOMAIN-SUFFIX,twiyia.com
+DOMAIN-SUFFIX,twkan.com
 DOMAIN-SUFFIX,twlegs.com
 DOMAIN-SUFFIX,twline5.com
 DOMAIN-SUFFIX,twnextdigital.com
