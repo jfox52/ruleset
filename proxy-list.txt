@@ -1,4 +1,4 @@
-# Updated on: 2025-03-13 22:37:55 UTC
+# Updated on: 2025-03-14 22:37:42 UTC
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -10009,7 +10009,6 @@ DOMAIN-SUFFIX,fashiontechnologyacademy.ac.uk
 DOMAIN-SUFFIX,fast.com
 DOMAIN-SUFFIX,fastech.ac.uk
 DOMAIN-SUFFIX,fastestvpn.com
-DOMAIN-SUFFIX,fastgpt.run
 DOMAIN-SUFFIX,fastindianporn.com
 DOMAIN-SUFFIX,fastlane.ci
 DOMAIN-SUFFIX,fastlane.tools
