@@ -1,4 +1,4 @@
-# Updated on: 2025-03-26 22:38:45 UTC
+# Updated on: 2025-03-27 22:38:56 UTC
 DOMAIN-SUFFIX,0.zone
 DOMAIN-SUFFIX,00.net
 DOMAIN-SUFFIX,000.link
@@ -101779,6 +101779,7 @@ DOMAIN,content.googleadapis.com
 DOMAIN,crashlyticsreports-pa.googleapis.com
 DOMAIN,crl-lb.apple.com.akadns.net
 DOMAIN,crl.apple.com
+DOMAIN,crl.globalsign.net
 DOMAIN,crl.pki.goog
 DOMAIN,crls.pki.goog
 DOMAIN,csi.gstatic.com
@@ -102175,6 +102176,7 @@ DOMAIN,www.apple.com
 DOMAIN,www.apple.com.edgekey.net
 DOMAIN,www.apple.com.edgekey.net.globalredir.akadns.net
 DOMAIN,www.destinationurl.com
+DOMAIN,www.entrust.cn
 DOMAIN,www.googleadapis.com
 DOMAIN,www.gstatic.com
 DOMAIN,www.libvideo.com
