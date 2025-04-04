@@ -1,4 +1,4 @@
-# Updated on: 2025-04-03 22:38:42 UTC
+# Updated on: 2025-04-04 22:39:05 UTC
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -20491,6 +20491,7 @@ DOMAIN-SUFFIX,openart.ai
 DOMAIN-SUFFIX,opencollective.com
 DOMAIN-SUFFIX,opencreate.org
 DOMAIN-SUFFIX,opendemocracy.net
+DOMAIN-SUFFIX,opendesktop.org
 DOMAIN-SUFFIX,opendn.xyz
 DOMAIN-SUFFIX,opendns.com
 DOMAIN-SUFFIX,opendroneid.org
