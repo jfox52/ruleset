@@ -1,4 +1,4 @@
-# Updated on: 2025-04-14 22:39:35 UTC
+# Updated on: 2025-04-15 22:39:49 UTC
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -12828,6 +12828,7 @@ DOMAIN-SUFFIX,hetzner.cloud
 DOMAIN-SUFFIX,hetzner.com
 DOMAIN-SUFFIX,hetzner.company
 DOMAIN-SUFFIX,hetzner.de
+DOMAIN-SUFFIX,hetzner.social
 DOMAIN-SUFFIX,heungkongdiscuss.com
 DOMAIN-SUFFIX,hew.ac.uk
 DOMAIN-SUFFIX,hewit.ac.uk
