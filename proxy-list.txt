@@ -1,4 +1,4 @@
-# Updated on: 2025-05-03 22:38:44 UTC
+# Updated on: 2025-05-04 22:39:21 UTC
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -24326,6 +24326,7 @@ DOMAIN-SUFFIX,simplecd.me
 DOMAIN-SUFFIX,simplecd.org
 DOMAIN-SUFFIX,simpleproductivityblog.com
 DOMAIN-SUFFIX,simpleswap.io
+DOMAIN-SUFFIX,simplex.chat
 DOMAIN-SUFFIX,simplify.com
 DOMAIN-SUFFIX,simplifycommerce.com
 DOMAIN-SUFFIX,simply-hentai.com
@@ -30909,6 +30910,7 @@ DOMAIN-SUFFIX,zmedia.com.tw
 DOMAIN-SUFFIX,zmw.cn
 DOMAIN-SUFFIX,zndsk.com
 DOMAIN-SUFFIX,zodgame.us
+DOMAIN-SUFFIX,zodgame.xyz
 DOMAIN-SUFFIX,zoho.com
 DOMAIN-SUFFIX,zoho.com.au
 DOMAIN-SUFFIX,zoho.eu
