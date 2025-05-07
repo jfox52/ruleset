@@ -1,4 +1,4 @@
-# Updated on: 2025-05-06 22:40:24 UTC
+# Updated on: 2025-05-07 22:41:23 UTC
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -17797,6 +17797,7 @@ DOMAIN-SUFFIX,minbrowser.org
 DOMAIN-SUFFIX,mindgeek.com
 DOMAIN-SUFFIX,mindmeld.com
 DOMAIN-SUFFIX,mindrolling.org
+DOMAIN-SUFFIX,minecraft-services.net
 DOMAIN-SUFFIX,minecraft.net
 DOMAIN-SUFFIX,minecraft.wiki
 DOMAIN-SUFFIX,minecraftservices.com
