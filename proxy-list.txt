@@ -1,4 +1,4 @@
-# Updated on: 2025-05-07 22:41:23 UTC
+# Updated on: 2025-05-08 22:40:36 UTC
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -18545,6 +18545,7 @@ DOMAIN-SUFFIX,mtvnservices.com
 DOMAIN-SUFFIX,mtw.tl
 DOMAIN-SUFFIX,muarc.ac.uk
 DOMAIN-SUFFIX,mubi.com
+DOMAIN-SUFFIX,mubicdn.net
 DOMAIN-SUFFIX,muchohentai.com
 DOMAIN-SUFFIX,muchomasporno.com
 DOMAIN-SUFFIX,muchosucko.com
