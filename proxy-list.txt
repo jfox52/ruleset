@@ -1,4 +1,4 @@
-# Updated on: 2025-05-11 22:39:02 UTC
+# Updated on: 2025-05-12 22:41:13 UTC
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -19679,6 +19679,7 @@ DOMAIN-SUFFIX,nikke-fr.com
 DOMAIN-SUFFIX,nikke-jp.com
 DOMAIN-SUFFIX,nikke-kr.com
 DOMAIN-SUFFIX,nikke-sea.com
+DOMAIN-SUFFIX,nikke.hotcool.tw
 DOMAIN-SUFFIX,nikkei-cnbc.co.jp
 DOMAIN-SUFFIX,nikkei.co.jp
 DOMAIN-SUFFIX,nikkei.com
