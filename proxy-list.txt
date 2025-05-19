@@ -1,4 +1,4 @@
-# Updated on: 2025-05-18 22:39:12 UTC
+# Updated on: 2025-05-19 22:40:54 UTC
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -18520,6 +18520,7 @@ DOMAIN-SUFFIX,msedge.net
 DOMAIN-SUFFIX,msft.info
 DOMAIN-SUFFIX,msft.net
 DOMAIN-SUFFIX,msftauth.net
+DOMAIN-SUFFIX,msftauthimages.net
 DOMAIN-SUFFIX,msftconnecttest.com
 DOMAIN-SUFFIX,msfteducation.ca
 DOMAIN-SUFFIX,msftncsi.com
