@@ -1,4 +1,4 @@
-# Updated on: 2025-05-19 22:40:54 UTC
+# Updated on: 2025-05-20 22:40:40 UTC
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -16088,6 +16088,7 @@ DOMAIN-SUFFIX,ld.hao123img.com
 DOMAIN-SUFFIX,ldoc-cdt.ac.uk
 DOMAIN-SUFFIX,ldplayer.net
 DOMAIN-SUFFIX,ldplayer.tw
+DOMAIN-SUFFIX,ldstatic.com
 DOMAIN-SUFFIX,le-direct.tv
 DOMAIN-SUFFIX,le-vpn.com
 DOMAIN-SUFFIX,le.ac.uk
@@ -16393,6 +16394,7 @@ DOMAIN-SUFFIX,linkuswell.com
 DOMAIN-SUFFIX,linotype.com
 DOMAIN-SUFFIX,linseysworld.com
 DOMAIN-SUFFIX,linst.ac.uk
+DOMAIN-SUFFIX,linux.do
 DOMAIN-SUFFIX,linux.org
 DOMAIN-SUFFIX,linux.org.hk
 DOMAIN-SUFFIX,linuxfoundation.org
@@ -31090,6 +31092,7 @@ DOMAIN,avatargarenanow-a.akamaihd.net
 DOMAIN,az764295.vo.msecnd.net
 DOMAIN,azure.microsoft.com
 DOMAIN,azuremarketplace.microsoft.com
+DOMAIN,bbs.boingboing.net
 DOMAIN,bcovlive-a.akamaihd.net
 DOMAIN,bcsecure01-a.akamaihd.net
 DOMAIN,beatselectronicsllc.tt.omtrdc.net
