@@ -1,4 +1,4 @@
-# Updated on: 2025-05-26 22:40:23 UTC
+# Updated on: 2025-05-27 22:40:58 UTC
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -25795,6 +25795,7 @@ DOMAIN-SUFFIX,syfor.click
 DOMAIN-SUFFIX,syhacked.com
 DOMAIN-SUFFIX,sylfoundation.org
 DOMAIN-SUFFIX,symantec.com
+DOMAIN-SUFFIX,symantecliveupdate.com
 DOMAIN-SUFFIX,symauth.com
 DOMAIN-SUFFIX,symcb.com
 DOMAIN-SUFFIX,symcd.com
