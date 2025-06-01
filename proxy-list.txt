@@ -1,4 +1,4 @@
-# Updated on: 2025-05-31 22:40:06 UTC
+# Updated on: 2025-06-01 22:40:39 UTC
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -7137,6 +7137,7 @@ DOMAIN-SUFFIX,ctexcel.us
 DOMAIN-SUFFIX,ctfassets.net
 DOMAIN-SUFFIX,ctfriend.net
 DOMAIN-SUFFIX,ctg.ac.uk
+DOMAIN-SUFFIX,ctinews.com
 DOMAIN-SUFFIX,ctitv.com.tw
 DOMAIN-SUFFIX,ctk.ac.uk
 DOMAIN-SUFFIX,ctkaquinas.ac.uk
