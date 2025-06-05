@@ -1,4 +1,4 @@
-# Updated on: 2025-06-04 22:36:49 UTC
+# Updated on: 2025-06-05 22:40:39 UTC
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -6679,6 +6679,7 @@ DOMAIN-SUFFIX,coedcherry.com
 DOMAIN-SUFFIX,coem.ac.uk
 DOMAIN-SUFFIX,cof.ac.uk
 DOMAIN-SUFFIX,cofacts.tw
+DOMAIN-SUFFIX,coffeemanga.to
 DOMAIN-SUFFIX,cogc.ac.uk
 DOMAIN-SUFFIX,coin2co.in
 DOMAIN-SUFFIX,coinalyze.net
