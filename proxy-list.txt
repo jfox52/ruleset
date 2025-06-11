@@ -1,4 +1,4 @@
-# Updated on: 2025-06-10 22:41:58 UTC
+# Updated on: 2025-06-11 22:41:54 UTC
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -16454,6 +16454,7 @@ DOMAIN-SUFFIX,lineshoppingseller.com
 DOMAIN-SUFFIX,linetv.tw
 DOMAIN-SUFFIX,lingeriepornonly.com
 DOMAIN-SUFFIX,linglingfa.com
+DOMAIN-SUFFIX,lingualeo.com
 DOMAIN-SUFFIX,linguee.com
 DOMAIN-SUFFIX,linguistics.ac.uk
 DOMAIN-SUFFIX,lingvodics.com
