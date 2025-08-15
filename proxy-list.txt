@@ -1,4 +1,4 @@
-# Updated on: 2025-08-14 22:41:53 UTC
+# Updated on: 2025-08-15 22:42:09 UTC
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -25346,6 +25346,7 @@ DOMAIN-SUFFIX,swanseamet.ac.uk
 DOMAIN-SUFFIX,swap.ac.uk
 DOMAIN-SUFFIX,swapbox.ac.uk
 DOMAIN-SUFFIX,swapsmut.com
+DOMAIN-SUFFIX,swapspace.co
 DOMAIN-SUFFIX,swarf.ac.uk
 DOMAIN-SUFFIX,sway-cdn.com
 DOMAIN-SUFFIX,sway.com
