@@ -1,4 +1,4 @@
-# Updated on: 2025-08-21 22:40:14 UTC
+# Updated on: 2025-08-22 22:38:59 UTC
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -6825,6 +6825,7 @@ DOMAIN-SUFFIX,courtauld.ac.uk
 DOMAIN-SUFFIX,cov.ac.uk
 DOMAIN-SUFFIX,covcollege.ac.uk
 DOMAIN-SUFFIX,cove4careinkent.ac.uk
+DOMAIN-SUFFIX,covenantswatch.org.tw
 DOMAIN-SUFFIX,coventry.ac.uk
 DOMAIN-SUFFIX,coventrycollege.ac.uk
 DOMAIN-SUFFIX,coventryuniversity.ac.uk
