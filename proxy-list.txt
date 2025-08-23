@@ -1,4 +1,4 @@
-# Updated on: 2025-08-22 22:38:59 UTC
+# Updated on: 2025-08-23 22:38:42 UTC
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -10833,6 +10833,8 @@ DOMAIN-SUFFIX,fuck55.net
 DOMAIN-SUFFIX,fuck6teen.com
 DOMAIN-SUFFIX,fuckableteens.net
 DOMAIN-SUFFIX,fuckbookecuador.com
+DOMAIN-SUFFIX,fuckccp.com
+DOMAIN-SUFFIX,fuckccp.xyz
 DOMAIN-SUFFIX,fuckcuck.com
 DOMAIN-SUFFIX,fuckgames.xxx
 DOMAIN-SUFFIX,fuckgfw.org
