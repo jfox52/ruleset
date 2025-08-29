@@ -1,4 +1,4 @@
-# Updated on: 2025-08-28 22:38:14 UTC
+# Updated on: 2025-08-29 22:37:35 UTC
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -8285,6 +8285,7 @@ DOMAIN-SUFFIX,download.com
 DOMAIN-SUFFIX,download.qatp1.net
 DOMAIN-SUFFIX,downloadpass.com
 DOMAIN-SUFFIX,downloadsforipod.com
+DOMAIN-SUFFIX,dpdns.org
 DOMAIN-SUFFIX,dphk.org
 DOMAIN-SUFFIX,dpoc.ac.uk
 DOMAIN-SUFFIX,dpool.top
