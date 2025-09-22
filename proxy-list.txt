@@ -1,4 +1,4 @@
-# Updated on: 2025-09-21 22:36:57 UTC
+# Updated on: 2025-09-22 22:37:19 UTC
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -27252,7 +27252,6 @@ DOMAIN-SUFFIX,udacity.com
 DOMAIN-SUFFIX,udel.ac.uk
 DOMAIN-SUFFIX,udemy.com
 DOMAIN-SUFFIX,udemycdn.com
-DOMAIN-SUFFIX,uderzo.it
 DOMAIN-SUFFIX,udfs.com
 DOMAIN-SUFFIX,udn.com
 DOMAIN-SUFFIX,udn.com.tw
