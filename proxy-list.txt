@@ -1,4 +1,4 @@
-# Updated on: 2025-09-24 22:35:19 UTC
+# Updated on: 2025-09-25 22:37:04 UTC
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -29099,6 +29099,7 @@ DOMAIN-SUFFIX,wikimedia.org
 DOMAIN-SUFFIX,wikimediacloud.org
 DOMAIN-SUFFIX,wikimediafoundation.org
 DOMAIN-SUFFIX,wikinews.org
+DOMAIN-SUFFIX,wikipedia.com
 DOMAIN-SUFFIX,wikipedia.org
 DOMAIN-SUFFIX,wikiporn.tv
 DOMAIN-SUFFIX,wikiquote.org
