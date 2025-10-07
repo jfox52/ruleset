@@ -1,4 +1,4 @@
-# Updated on: 2025-10-06 22:36:54 UTC
+# Updated on: 2025-10-07 22:36:52 UTC
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -24645,6 +24645,7 @@ DOMAIN-SUFFIX,solidfiles.com
 DOMAIN-SUFFIX,solihull.ac.uk
 DOMAIN-SUFFIX,solihullsfc.ac.uk
 DOMAIN-SUFFIX,solostudioksale.com
+DOMAIN-SUFFIX,solscan.io
 DOMAIN-SUFFIX,solsfc.ac.uk
 DOMAIN-SUFFIX,solutions-worcestershire.ac.uk
 DOMAIN-SUFFIX,solutionstation.com
