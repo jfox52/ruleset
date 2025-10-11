@@ -1,4 +1,4 @@
-# Updated on: 2025-10-10 22:37:02 UTC
+# Updated on: 2025-10-11 22:36:09 UTC
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -10911,6 +10911,8 @@ DOMAIN-SUFFIX,freeforums.org
 DOMAIN-SUFFIX,freegao.com
 DOMAIN-SUFFIX,freegaypornhdtube.com
 DOMAIN-SUFFIX,freegaysexgames.com
+DOMAIN-SUFFIX,freegpt.es
+DOMAIN-SUFFIX,freegpt.tech
 DOMAIN-SUFFIX,freehdinterracialporn.in
 DOMAIN-SUFFIX,freehdvideos.xxx
 DOMAIN-SUFFIX,freehentaipic.com
