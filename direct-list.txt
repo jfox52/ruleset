@@ -1,4 +1,4 @@
-# Updated on: 2025-10-20 22:38:11 UTC
+# Updated on: 2025-10-21 22:37:32 UTC
 DOMAIN-SUFFIX,0.zone
 DOMAIN-SUFFIX,00.net
 DOMAIN-SUFFIX,000.link
@@ -23675,6 +23675,7 @@ DOMAIN-SUFFIX,cn-zhentai.com
 DOMAIN-SUFFIX,cn-zhongrui.com
 DOMAIN-SUFFIX,cn.bing.com
 DOMAIN-SUFFIX,cn.bing.net
+DOMAIN-SUFFIX,cn.eset.com
 DOMAIN-SUFFIX,cn.mm.bing.net
 DOMAIN-SUFFIX,cn.net
 DOMAIN-SUFFIX,cn.online.standardchartered.com
