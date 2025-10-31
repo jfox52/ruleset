@@ -1,4 +1,4 @@
-# Updated on: 2025-10-30 22:37:47 UTC
+# Updated on: 2025-10-31 22:39:08 UTC
 DOMAIN-SUFFIX,0.zone
 DOMAIN-SUFFIX,00.net
 DOMAIN-SUFFIX,000.link
@@ -113418,6 +113418,7 @@ DOMAIN-SUFFIX,zhuanhuamao.com
 DOMAIN-SUFFIX,zhuanhuanqi.com
 DOMAIN-SUFFIX,zhuanhuanqi.net
 DOMAIN-SUFFIX,zhuaniao.com
+DOMAIN-SUFFIX,zhuaninc.com
 DOMAIN-SUFFIX,zhuankeapp.com
 DOMAIN-SUFFIX,zhuankebang.com
 DOMAIN-SUFFIX,zhuankezu.com
