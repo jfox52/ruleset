@@ -1,4 +1,4 @@
-# Updated on: 2025-11-06 22:40:03 UTC
+# Updated on: 2025-11-07 22:38:34 UTC
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -14286,6 +14286,7 @@ DOMAIN-SUFFIX,imagemodeler.com
 DOMAIN-SUFFIX,imagepost.com
 DOMAIN-SUFFIX,images-amazon.com
 DOMAIN-SUFFIX,images-gaytube.com
+DOMAIN-SUFFIX,images.prismic.io
 DOMAIN-SUFFIX,imageshack.com
 DOMAIN-SUFFIX,imageshack.us
 DOMAIN-SUFFIX,imagetwist.com
