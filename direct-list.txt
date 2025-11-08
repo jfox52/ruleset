@@ -1,4 +1,4 @@
-# Updated on: 2025-11-07 22:38:34 UTC
+# Updated on: 2025-11-08 22:37:06 UTC
 DOMAIN-SUFFIX,0.zone
 DOMAIN-SUFFIX,00.net
 DOMAIN-SUFFIX,000.link
@@ -52385,7 +52385,6 @@ DOMAIN-SUFFIX,inferoey.com
 DOMAIN-SUFFIX,infertilitybridge.com
 DOMAIN-SUFFIX,infimotion.com
 DOMAIN-SUFFIX,infineon-autoeco.com
-DOMAIN-SUFFIX,infineon.com
 DOMAIN-SUFFIX,infini-ai.com
 DOMAIN-SUFFIX,infinisign.com
 DOMAIN-SUFFIX,infinitescript.com
@@ -91785,7 +91784,6 @@ DOMAIN-SUFFIX,thztv.net
 DOMAIN-SUFFIX,thzu.cc
 DOMAIN-SUFFIX,ti-node.com
 DOMAIN-SUFFIX,ti-solar.com
-DOMAIN-SUFFIX,ti.com
 DOMAIN-SUFFIX,ti0s.com
 DOMAIN-SUFFIX,ti4la.icu
 DOMAIN-SUFFIX,tiamaes.com
