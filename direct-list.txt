@@ -1,4 +1,4 @@
-# Updated on: 2025-11-14 22:39:48 UTC
+# Updated on: 2025-11-15 22:36:55 UTC
 DOMAIN-SUFFIX,0.zone
 DOMAIN-SUFFIX,00.net
 DOMAIN-SUFFIX,000.link
@@ -11977,6 +11977,7 @@ DOMAIN-SUFFIX,anyv.net
 DOMAIN-SUFFIX,anyview.net
 DOMAIN-SUFFIX,anyway.fm
 DOMAIN-SUFFIX,anyway.red
+DOMAIN-SUFFIX,anywlan.com
 DOMAIN-SUFFIX,anywood.com
 DOMAIN-SUFFIX,anyxz.com
 DOMAIN-SUFFIX,anzerclub.com
