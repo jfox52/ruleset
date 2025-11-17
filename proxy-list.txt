@@ -1,4 +1,4 @@
-# Updated on: 2025-11-16 22:38:23 UTC
+# Updated on: 2025-11-17 22:40:34 UTC
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -15204,6 +15204,7 @@ DOMAIN-SUFFIX,mixx.com
 DOMAIN-SUFFIX,miyazakibank.co.jp
 DOMAIN-SUFFIX,mizuhobank.co.jp
 DOMAIN-SUFFIX,mizzmona.com
+DOMAIN-SUFFIX,mjj.rip
 DOMAIN-SUFFIX,mjlsh.usc.cuhk.edu.hk
 DOMAIN-SUFFIX,mjv-art.org
 DOMAIN-SUFFIX,mk.shrimpia.network
