@@ -1,4 +1,4 @@
-# Updated on: 2025-11-20 22:37:47 UTC
+# Updated on: 2025-11-21 22:39:45 UTC
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -14060,7 +14060,6 @@ DOMAIN-SUFFIX,lyzsxx.com
 DOMAIN-SUFFIX,lzjscript.com
 DOMAIN-SUFFIX,lzmtnews.org
 DOMAIN-SUFFIX,m-power.com
-DOMAIN-SUFFIX,m-team.cc
 DOMAIN-SUFFIX,m.me
 DOMAIN-SUFFIX,m.moegirl.org
 DOMAIN-SUFFIX,m12.vc
