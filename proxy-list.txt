@@ -1,4 +1,4 @@
-# Updated on: 2025-11-25 22:40:52 UTC
+# Updated on: 2025-11-26 22:39:43 UTC
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -1164,6 +1164,7 @@ DOMAIN-SUFFIX,akiba-web.com
 DOMAIN-SUFFIX,akinator.com
 DOMAIN-SUFFIX,akita-bank.co.jp
 DOMAIN-SUFFIX,akow.org
+DOMAIN-SUFFIX,akstat.io
 DOMAIN-SUFFIX,akthelp.com
 DOMAIN-SUFFIX,al-islam.com
 DOMAIN-SUFFIX,alabout.com
@@ -24985,6 +24986,7 @@ DOMAIN-SUFFIX,yandex.st
 DOMAIN-SUFFIX,yandex.sx
 DOMAIN-SUFFIX,yandex.tj
 DOMAIN-SUFFIX,yandex.tm
+DOMAIN-SUFFIX,yandex.tr
 DOMAIN-SUFFIX,yandex.ua
 DOMAIN-SUFFIX,yandex.uz
 DOMAIN-SUFFIX,yandexadexchange.net
