@@ -1,4 +1,4 @@
-# Updated on: 2025-12-04 22:39:59 UTC
+# Updated on: 2025-12-05 22:40:21 UTC
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -21853,6 +21853,7 @@ DOMAIN-SUFFIX,tiffany-towers.com
 DOMAIN-SUFFIX,tig-ol-bitties.live
 DOMAIN-SUFFIX,tigervpn.com
 DOMAIN-SUFFIX,tik-tokapi.com
+DOMAIN-SUFFIX,tiktok-row.net
 DOMAIN-SUFFIX,tiktok.com
 DOMAIN-SUFFIX,tiktokcdn-eu.com
 DOMAIN-SUFFIX,tiktokcdn-us.com
@@ -21860,6 +21861,8 @@ DOMAIN-SUFFIX,tiktokcdn.com
 DOMAIN-SUFFIX,tiktokd.net
 DOMAIN-SUFFIX,tiktokd.org
 DOMAIN-SUFFIX,tiktokeu-cdn.com
+DOMAIN-SUFFIX,tiktokglobalshopv.com
+DOMAIN-SUFFIX,tiktokminis.us
 DOMAIN-SUFFIX,tiktokrow-cdn.com
 DOMAIN-SUFFIX,tiktokv.com
 DOMAIN-SUFFIX,tiktokv.eu
@@ -25630,6 +25633,7 @@ DOMAIN-SUFFIX,zophar.net
 DOMAIN-SUFFIX,zopim.com
 DOMAIN-SUFFIX,zorglist.com
 DOMAIN-SUFFIX,zorrovpn.com
+DOMAIN-SUFFIX,zotero.org
 DOMAIN-SUFFIX,zozotown.com
 DOMAIN-SUFFIX,zpn.im
 DOMAIN-SUFFIX,zqqpwz.com
