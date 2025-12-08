@@ -1,4 +1,4 @@
-# Updated on: 2025-12-07 22:39:04 UTC
+# Updated on: 2025-12-08 22:41:34 UTC
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -18830,6 +18830,7 @@ DOMAIN-SUFFIX,r18.com
 DOMAIN-SUFFIX,r18av.com
 DOMAIN-SUFFIX,r18lu-avi.shop
 DOMAIN-SUFFIX,r18lu.com
+DOMAIN-SUFFIX,r2.dev
 DOMAIN-SUFFIX,r34porn.net
 DOMAIN-SUFFIX,rabbitscams.com
 DOMAIN-SUFFIX,rabbitscams.sex
