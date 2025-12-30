@@ -1,4 +1,4 @@
-# Updated on: 2025-12-29 22:41:55 UTC
+# Updated on: 2025-12-30 22:42:03 UTC
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -10845,6 +10845,7 @@ DOMAIN-SUFFIX,herokucharge.com
 DOMAIN-SUFFIX,herokussl.com
 DOMAIN-SUFFIX,herominers.com
 DOMAIN-SUFFIX,herringnetwork.com
+DOMAIN-SUFFIX,hetzner-cloud.de
 DOMAIN-SUFFIX,hetzner.cloud
 DOMAIN-SUFFIX,hetzner.com
 DOMAIN-SUFFIX,hetzner.company
