@@ -1,4 +1,4 @@
-# Updated on: 2026-01-05 22:44:36 UTC
+# Updated on: 2026-01-06 22:44:44 UTC
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -16501,6 +16501,15 @@ DOMAIN-SUFFIX,ngeo.com
 DOMAIN-SUFFIX,nginx.com
 DOMAIN-SUFFIX,nginx.org
 DOMAIN-SUFFIX,nginxconfig.io
+DOMAIN-SUFFIX,ngrok-free.app
+DOMAIN-SUFFIX,ngrok-free.dev
+DOMAIN-SUFFIX,ngrok-free.pizza
+DOMAIN-SUFFIX,ngrok.app
+DOMAIN-SUFFIX,ngrok.com
+DOMAIN-SUFFIX,ngrok.dev
+DOMAIN-SUFFIX,ngrok.io
+DOMAIN-SUFFIX,ngrok.pizza
+DOMAIN-SUFFIX,ngrok.pro
 DOMAIN-SUFFIX,nhentai.com
 DOMAIN-SUFFIX,nhentai.io
 DOMAIN-SUFFIX,nhentai.net
@@ -18018,6 +18027,8 @@ DOMAIN-SUFFIX,ping.pe
 DOMAIN-SUFFIX,ping.sx
 DOMAIN-SUFFIX,pingan.com.hk
 DOMAIN-SUFFIX,pingguotv.xyz
+DOMAIN-SUFFIX,pinggy.io
+DOMAIN-SUFFIX,pinggy.link
 DOMAIN-SUFFIX,pingxiangpuer.com
 DOMAIN-SUFFIX,pinimg.com
 DOMAIN-SUFFIX,pinkcore.com
