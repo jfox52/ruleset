@@ -1,4 +1,4 @@
-# Updated on: 2026-01-11 22:42:03 UTC
+# Updated on: 2026-01-12 22:41:50 UTC
 DOMAIN-SUFFIX,0.zone
 DOMAIN-SUFFIX,00.net
 DOMAIN-SUFFIX,000.link
@@ -83416,6 +83416,7 @@ DOMAIN-SUFFIX,shouqiev.com
 DOMAIN-SUFFIX,shouqu.me
 DOMAIN-SUFFIX,shoushenlvcheng.com
 DOMAIN-SUFFIX,shoutai.com
+DOMAIN-SUFFIX,shoutanjjj.com
 DOMAIN-SUFFIX,shouxi.com
 DOMAIN-SUFFIX,shouxieti.com
 DOMAIN-SUFFIX,shouxihu.net
