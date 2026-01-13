@@ -1,4 +1,4 @@
-# Updated on: 2026-01-12 22:41:50 UTC
+# Updated on: 2026-01-13 22:45:17 UTC
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -6684,6 +6684,7 @@ DOMAIN-SUFFIX,digitalprototyping.com
 DOMAIN-SUFFIX,digitaltrends.com
 DOMAIN-SUFFIX,diigo.com
 DOMAIN-SUFFIX,dilcdn.com
+DOMAIN-SUFFIX,dinopoloclub.com
 DOMAIN-SUFFIX,dinotube.com
 DOMAIN-SUFFIX,dipity.com
 DOMAIN-SUFFIX,dirctv.com
@@ -15531,6 +15532,7 @@ DOMAIN-SUFFIX,mobilepornmovies.com
 DOMAIN-SUFFIX,mobileview.page
 DOMAIN-SUFFIX,mobilevrxxx.com
 DOMAIN-SUFFIX,mobileways.de
+DOMAIN-SUFFIX,mobimon.com.tw
 DOMAIN-SUFFIX,mobmyanmar.com
 DOMAIN-SUFFIX,moby.to
 DOMAIN-SUFFIX,mobypicture.com
@@ -16866,6 +16868,7 @@ DOMAIN-SUFFIX,nowjav.com
 DOMAIN-SUFFIX,nownews.com
 DOMAIN-SUFFIX,nowtorrents.com
 DOMAIN-SUFFIX,noxinfluencer.com
+DOMAIN-SUFFIX,noxygames.com
 DOMAIN-SUFFIX,nozomi.la
 DOMAIN-SUFFIX,npa.go.jp
 DOMAIN-SUFFIX,npm.community
@@ -19203,6 +19206,8 @@ DOMAIN-SUFFIX,ravm.tv
 DOMAIN-SUFFIX,raw.githack.com
 DOMAIN-SUFFIX,rawgit.com
 DOMAIN-SUFFIX,rawgithub.com
+DOMAIN-SUFFIX,rayark.download
+DOMAIN-SUFFIX,rayark.net
 DOMAIN-SUFFIX,razer.com
 DOMAIN-SUFFIX,razerofficial.com
 DOMAIN-SUFFIX,razersupport.com
@@ -26056,6 +26061,8 @@ DOMAIN,amp.akamaized.net
 DOMAIN,android.googlesource.com
 DOMAIN,angle.com.tw
 DOMAIN,anime-rule34-world.b-cdn.net
+DOMAIN,antigravity-pa.googleapis.com
+DOMAIN,antigravity.googleapis.com
 DOMAIN,aod-pod-uk-live.akamaized.net
 DOMAIN,api-p.videomarket.jp
 DOMAIN,api.viu.now.com
@@ -26106,6 +26113,8 @@ DOMAIN,cisco.evergage.com
 DOMAIN,ciscolivehls-i.akamaihd.net
 DOMAIN,client-teamviewer-com.trafficmanager.net
 DOMAIN,clients1.google.com
+DOMAIN,cloudaicompanion.googleapis.com
+DOMAIN,cloudcode-pa.googleapis.com
 DOMAIN,cloudsync-prod.s3.amazonaws.com
 DOMAIN,community.oneplus.com
 DOMAIN,configuration-lb.ls-apple.com.akadns.net
@@ -26142,6 +26151,7 @@ DOMAIN,d3r7nsslvs6aaf.cloudfront.net
 DOMAIN,d3vd9lfkzbru3h.cloudfront.net
 DOMAIN,d6d4ismr40iw.cloudfront.net
 DOMAIN,d6tizftlrpuof.cloudfront.net
+DOMAIN,daily-cloudcode-pa.googleapis.com
 DOMAIN,databank.worldbank.org
 DOMAIN,database.asahi.com
 DOMAIN,datarouter.apps.netherrealm.com
@@ -26269,6 +26279,8 @@ DOMAIN,nationalaustraliaban.tt.omtrdc.net
 DOMAIN,netflix.com.edgesuite.net
 DOMAIN,notary-submissions-prod.s3-accelerate.amazonaws.com
 DOMAIN,notary-submissions-prod.s3.us-west-2.amazonaws.com
+DOMAIN,notebooklm-pa.googleapis.com
+DOMAIN,notebooklm.googleapis.com
 DOMAIN,notify.ppy.sh
 DOMAIN,np-edge.itunes.apple.com
 DOMAIN,ntdfreemobile-tgc.cdn.hinet.net
