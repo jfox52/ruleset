@@ -1,4 +1,4 @@
-# Updated on: 2026-01-13 22:45:17 UTC
+# Updated on: 2026-01-14 22:46:09 UTC
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -20456,6 +20456,8 @@ DOMAIN-SUFFIX,signalr.net
 DOMAIN-SUFFIX,signalusers.org
 DOMAIN-SUFFIX,sigops.org
 DOMAIN-SUFFIX,sigopt.com
+DOMAIN-SUFFIX,sih-db.com
+DOMAIN-SUFFIX,sih.app
 DOMAIN-SUFFIX,sijihuisuo.club
 DOMAIN-SUFFIX,sijihuisuo.com
 DOMAIN-SUFFIX,sikiswap.com
@@ -21212,6 +21214,7 @@ DOMAIN-SUFFIX,steamcontent.com
 DOMAIN-SUFFIX,steamdb.info
 DOMAIN-SUFFIX,steamdeck.com
 DOMAIN-SUFFIX,steamgames.com
+DOMAIN-SUFFIX,steaminventoryhelper.com
 DOMAIN-SUFFIX,steamladder.com
 DOMAIN-SUFFIX,steamofporn.com
 DOMAIN-SUFFIX,steampowered.com
