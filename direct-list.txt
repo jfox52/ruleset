@@ -1,4 +1,4 @@
-# Updated on: 2026-01-14 22:46:09 UTC
+# Updated on: 2026-01-15 22:44:47 UTC
 DOMAIN-SUFFIX,0.zone
 DOMAIN-SUFFIX,00.net
 DOMAIN-SUFFIX,000.link
@@ -94753,6 +94753,7 @@ DOMAIN-SUFFIX,volcfcdnrd.com
 DOMAIN-SUFFIX,volcfcdnsc.com
 DOMAIN-SUFFIX,volcfxgjrtm.com
 DOMAIN-SUFFIX,volcgroup.com
+DOMAIN-SUFFIX,volcgslb-mlt.com
 DOMAIN-SUFFIX,volcgslb.com
 DOMAIN-SUFFIX,volcgtm.com
 DOMAIN-SUFFIX,volchina.com
