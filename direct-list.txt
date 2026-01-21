@@ -1,4 +1,4 @@
-# Updated on: 2026-01-20 22:42:47 UTC
+# Updated on: 2026-01-21 22:50:47 UTC
 DOMAIN-SUFFIX,0.zone
 DOMAIN-SUFFIX,00.net
 DOMAIN-SUFFIX,000.link
@@ -13289,6 +13289,7 @@ DOMAIN-SUFFIX,baimatech.com
 DOMAIN-SUFFIX,baimda.com
 DOMAIN-SUFFIX,baimei.com
 DOMAIN-SUFFIX,baimeidashu.com
+DOMAIN-SUFFIX,baimiao.tech
 DOMAIN-SUFFIX,baimiaoapp.com
 DOMAIN-SUFFIX,baimin.com
 DOMAIN-SUFFIX,baina.com
@@ -82470,6 +82471,7 @@ DOMAIN-SUFFIX,shinelon.com
 DOMAIN-SUFFIX,shineoptics.com
 DOMAIN-SUFFIX,shineray-motors.com
 DOMAIN-SUFFIX,shinerayad.com
+DOMAIN-SUFFIX,shinescan.tech
 DOMAIN-SUFFIX,shinetsu.shop
 DOMAIN-SUFFIX,shineu.com
 DOMAIN-SUFFIX,shineway.com
