@@ -1,4 +1,4 @@
-# Updated on: 2026-01-29 22:52:51 UTC
+# Updated on: 2026-01-30 22:51:29 UTC
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -20280,6 +20280,7 @@ DOMAIN-SUFFIX,simcity-buildit.com
 DOMAIN-SUFFIX,simcity.com
 DOMAIN-SUFFIX,simg.jp
 DOMAIN-SUFFIX,simgbb.com
+DOMAIN-SUFFIX,simianx.ai
 DOMAIN-SUFFIX,similar-porn.fun
 DOMAIN-SUFFIX,simility.com
 DOMAIN-SUFFIX,simonsgirls.com
