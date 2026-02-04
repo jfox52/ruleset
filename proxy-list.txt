@@ -1,4 +1,4 @@
-# Updated on: 2026-02-03 22:56:08 UTC
+# Updated on: 2026-02-04 22:51:15 UTC
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -17296,6 +17296,7 @@ DOMAIN-SUFFIX,osfoora.com
 DOMAIN-SUFFIX,osiri-suki-club.com
 DOMAIN-SUFFIX,osl.com
 DOMAIN-SUFFIX,osm.org
+DOMAIN-SUFFIX,osmand.net
 DOMAIN-SUFFIX,osmfoundation.org
 DOMAIN-SUFFIX,ospray.net
 DOMAIN-SUFFIX,ospray.org
@@ -19786,6 +19787,7 @@ DOMAIN-SUFFIX,seesmic.com
 DOMAIN-SUFFIX,seeurlpcl.com
 DOMAIN-SUFFIX,seevpn.com
 DOMAIN-SUFFIX,seezone.net
+DOMAIN-SUFFIX,sef.org.tw
 DOMAIN-SUFFIX,sego8.cc
 DOMAIN-SUFFIX,sego8.co
 DOMAIN-SUFFIX,sego8.xyz
