@@ -1,4 +1,4 @@
-# Updated on: 2026-02-17 22:56:17 UTC
+# Updated on: 2026-02-18 22:59:06 UTC
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -14817,6 +14817,7 @@ DOMAIN-SUFFIX,mortein.com.ng
 DOMAIN-SUFFIX,mortein.com.pk
 DOMAIN-SUFFIX,morteincam.com
 DOMAIN-SUFFIX,mos.ru
+DOMAIN-SUFFIX,mosavi.io
 DOMAIN-SUFFIX,mostly.jp
 DOMAIN-SUFFIX,mostpopularpornsites.com
 DOMAIN-SUFFIX,motherless.com
