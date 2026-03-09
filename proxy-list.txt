@@ -1,4 +1,4 @@
-# Updated on: 2026-03-08 22:47:55 UTC
+# Updated on: 2026-03-09 22:53:13 UTC
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -5862,6 +5862,7 @@ DOMAIN-SUFFIX,customnikeshoes.com
 DOMAIN-SUFFIX,cutout.pro
 DOMAIN-SUFFIX,cutscenes.net
 DOMAIN-SUFFIX,cutt.ly
+DOMAIN-SUFFIX,cve.org
 DOMAIN-SUFFIX,cw.com.tw
 DOMAIN-SUFFIX,cwcams.com
 DOMAIN-SUFFIX,cxacg.com
