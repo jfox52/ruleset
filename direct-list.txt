@@ -1,4 +1,4 @@
-# Updated on: 2026-03-10 22:52:28 UTC
+# Updated on: 2026-03-11 22:48:19 UTC
 DOMAIN-SUFFIX,0.zone
 DOMAIN-SUFFIX,00.net
 DOMAIN-SUFFIX,000.link
@@ -115537,7 +115537,6 @@ DOMAIN-SUFFIX,zimufy.com
 DOMAIN-SUFFIX,zimuism.com
 DOMAIN-SUFFIX,zimujiang.com
 DOMAIN-SUFFIX,zimuzu.com
-DOMAIN-SUFFIX,zimuzu.io
 DOMAIN-SUFFIX,zindall.com
 DOMAIN-SUFFIX,zine.la
 DOMAIN-SUFFIX,zinffer.com
