@@ -1,4 +1,4 @@
-# Updated on: 2026-03-24 22:56:59 UTC
+# Updated on: 2026-03-25 23:01:32 UTC
 DOMAIN-SUFFIX,0.zone
 DOMAIN-SUFFIX,00.net
 DOMAIN-SUFFIX,000.link
@@ -12833,6 +12833,7 @@ DOMAIN-SUFFIX,anhuiry.com
 DOMAIN-SUFFIX,anhuisjx.com
 DOMAIN-SUFFIX,anhuisuya.com
 DOMAIN-SUFFIX,anhuiwine.com
+DOMAIN-SUFFIX,anhuiyun.com
 DOMAIN-SUFFIX,anhuizk.com
 DOMAIN-SUFFIX,ani-sh.com
 DOMAIN-SUFFIX,aniccw.net
@@ -118031,6 +118032,7 @@ DOMAIN,crls.pki.goog
 DOMAIN,csi.gstatic.com
 DOMAIN,cstat.apple.com
 DOMAIN,cstat.cdn-apple.com
+DOMAIN,ctdsb.clouddiffuse.xyz
 DOMAIN,ctldl.windowsupdate.com
 DOMAIN,cueme-api.quark.cn
 DOMAIN,customization-cdn.dell.com
