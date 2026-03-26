@@ -1,4 +1,4 @@
-# Updated on: 2026-03-25 23:01:32 UTC
+# Updated on: 2026-03-26 22:55:15 UTC
 DOMAIN-SUFFIX,0.zone
 DOMAIN-SUFFIX,00.net
 DOMAIN-SUFFIX,000.link
@@ -65817,7 +65817,6 @@ DOMAIN-SUFFIX,loushi.com
 DOMAIN-SUFFIX,lousj.com
 DOMAIN-SUFFIX,lousw.com
 DOMAIN-SUFFIX,louyue.com
-DOMAIN-SUFFIX,lovart.ai
 DOMAIN-SUFFIX,lovcuty.com
 DOMAIN-SUFFIX,love-freedom.com
 DOMAIN-SUFFIX,love-math-edu.com
@@ -118206,6 +118205,7 @@ DOMAIN,is5.mzstatic.com
 DOMAIN,itunes-apple.com.akadns.net
 DOMAIN,itunes.apple.com
 DOMAIN,itunesconnect.apple.com
+DOMAIN,izattime.qcomgeo2.com
 DOMAIN,js-cdn.music.apple.com
 DOMAIN,km.support.apple.com
 DOMAIN,ksn-cinfo-geo.kaspersky-labs.com
@@ -118501,6 +118501,7 @@ DOMAIN,www.support.apple.com
 DOMAIN,www4-static.gog-statics.com
 DOMAIN,xn--flw351e.com
 DOMAIN,xp.apple.com
+DOMAIN,xtratime.qcomgeo2.com
 DOMAIN,xz.pphimalayanrt.com
 URL-REGEX,.+\.awsdns-cn-[0-9][0-9]\.(biz|com|net|top)$
 URL-REGEX,.+\.awsdns-cn-[0-9][a-e0-9]\.cn$
