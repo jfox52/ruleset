@@ -6,15 +6,15 @@ This repository generates Shadowrocket-compatible rule-set files from
 
 ## Update schedule
 
-The GitHub Actions workflow is currently configured for testing and runs every
-**10 minutes**. Each run downloads the latest `geosite.dat` from the `release`
+The GitHub Actions workflow runs every day at **15:00 Beijing time (UTC+8)**,
+which is **07:00 UTC**, downloads the latest `geosite.dat` from the `release`
 branch, splits every geosite entry, and writes one Shadowrocket rule-set file per
 entry into `rules/`.
 
 ## File naming
 
-Generated files use the lower-case geosite rule-set name as their base name. For
-example, the `GEOLOCATION-CN` geosite entry is written to
+Generated files use the geosite rule-set name as their base name. For
+example, the `geolocation-cn` geosite entry is written to
 `rules/geolocation-cn.list`.
 
 ## Rule conversion
