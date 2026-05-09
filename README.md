@@ -6,8 +6,7 @@ This repository generates Shadowrocket-compatible rule-set files from
 
 ## Update schedule
 
-The GitHub Actions workflow runs every day at **15:00 Beijing time (UTC+8)**,
-which is **07:00 UTC**, downloads the latest `geosite.dat` from the `release`
+The GitHub Actions workflow runs every day at **00:30 UTC**, downloads the latest `geosite.dat` from the `release`
 branch, splits every geosite entry, and writes one Shadowrocket rule-set file per
 entry into `rules/`.
 
