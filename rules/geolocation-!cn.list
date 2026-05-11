@@ -769,8 +769,8 @@ DOMAIN-SUFFIX,aws
 DOMAIN-SUFFIX,apple
 DOMAIN-SUFFIX,android
 DOMAIN-SUFFIX,amazon
-DOMAIN-SUFFIX,javopen.co
-DOMAIN-SUFFIX,rustore.ru
+DOMAIN-SUFFIX,javmulu.net
+DOMAIN-SUFFIX,rustdesk.com
 DOMAIN-SUFFIX,12vpn.com
 DOMAIN-SUFFIX,12vpn.net
 DOMAIN-SUFFIX,1337x.gd
@@ -6799,6 +6799,7 @@ DOMAIN-SUFFIX,dat.foundation
 DOMAIN-SUFFIX,data-tscbank.ru
 DOMAIN-SUFFIX,data-vocabulary.org
 DOMAIN-SUFFIX,data.com
+DOMAIN-SUFFIX,data18.com
 DOMAIN-SUFFIX,datacloudmy.com
 DOMAIN-SUFFIX,dataframeworks.com
 DOMAIN-SUFFIX,dataliberation.org
@@ -7709,7 +7710,7 @@ DOMAIN-SUFFIX,drunkenstepfather.com
 DOMAIN-SUFFIX,drunkentop.com
 DOMAIN-SUFFIX,drweb-av.de
 DOMAIN-SUFFIX,drweb-av.es
-DOMAIN-SUFFIX,javtrust.com
+DOMAIN-SUFFIX,drweb-av.it
 DOMAIN-SUFFIX,drweb-av.pl
 DOMAIN-SUFFIX,drweb.by
 DOMAIN-SUFFIX,drweb.cn
@@ -7733,6 +7734,7 @@ DOMAIN-SUFFIX,dssott.com
 DOMAIN-SUFFIX,dstk.dk
 DOMAIN-SUFFIX,dswz88.xyz
 DOMAIN-SUFFIX,dsyiren.com
+DOMAIN-SUFFIX,dt18.com
 DOMAIN-SUFFIX,dtci.co
 DOMAIN-SUFFIX,dtci.technology
 DOMAIN-SUFFIX,dtiblog.com
@@ -9051,7 +9053,7 @@ DOMAIN-SUFFIX,farfetch.net
 DOMAIN-SUFFIX,faronics.ca
 DOMAIN-SUFFIX,xx9.app
 DOMAIN-SUFFIX,faronics.com
-DOMAIN-SUFFIX,javtrailers.com
+DOMAIN-SUFFIX,xx-map.com
 DOMAIN-SUFFIX,xwbo.com
 DOMAIN-SUFFIX,faronics.eu
 DOMAIN-SUFFIX,faronics.tech
@@ -9994,7 +9996,7 @@ DOMAIN-SUFFIX,gamepedia.com
 DOMAIN-SUFFIX,xtegvk.xyz
 DOMAIN-SUFFIX,xtapes.to
 DOMAIN-SUFFIX,gameroom.com
-DOMAIN-SUFFIX,javtorrent.me
+DOMAIN-SUFFIX,gamerotic.com
 DOMAIN-SUFFIX,gamesathletes.com
 DOMAIN-SUFFIX,gamescup.ru
 DOMAIN-SUFFIX,gamesfirsthelsinki.com
@@ -10124,7 +10126,7 @@ DOMAIN-SUFFIX,geek-squad.org
 DOMAIN-SUFFIX,geek-squads.net
 DOMAIN-SUFFIX,geeksquad.ca
 DOMAIN-SUFFIX,geeksquad.cc
-DOMAIN-SUFFIX,geeksquad.com
+DOMAIN-SUFFIX,javteg.net
 DOMAIN-SUFFIX,geeksquad.net
 DOMAIN-SUFFIX,geeksquad.tv
 DOMAIN-SUFFIX,geeksquadcares.com
@@ -10249,6 +10251,7 @@ DOMAIN-SUFFIX,gettyimages.se
 DOMAIN-SUFFIX,gettyimages.us
 DOMAIN-SUFFIX,getuploader.com
 DOMAIN-SUFFIX,getws1.com
+DOMAIN-SUFFIX,getwsj.com
 DOMAIN-SUFFIX,getwsone.com
 DOMAIN-SUFFIX,getzola.org
 DOMAIN-SUFFIX,gfacecbook.com
@@ -13381,6 +13384,7 @@ DOMAIN-SUFFIX,javdoe.to
 DOMAIN-SUFFIX,javdove.com
 DOMAIN-SUFFIX,javdove8.xyz
 DOMAIN-SUFFIX,javextreme.net
+DOMAIN-SUFFIX,javfc2.xyz
 DOMAIN-SUFFIX,javfilms.com
 DOMAIN-SUFFIX,javfinder.ai
 DOMAIN-SUFFIX,javfor.me
@@ -13432,9 +13436,9 @@ DOMAIN-SUFFIX,javmost.com
 DOMAIN-SUFFIX,javmost.cx
 DOMAIN-SUFFIX,javmost.xyz
 DOMAIN-SUFFIX,javmuch.com
-DOMAIN-SUFFIX,javmulu.net
-DOMAIN-SUFFIX,javnew.net
 DOMAIN-SUFFIX,000webhost.com
+DOMAIN-SUFFIX,javnew.net
+DOMAIN-SUFFIX,javopen.co
 DOMAIN-SUFFIX,javout.co
 DOMAIN-SUFFIX,javplatform.com
 DOMAIN-SUFFIX,javpop.com
@@ -13467,11 +13471,11 @@ DOMAIN-SUFFIX,javstore.net
 DOMAIN-SUFFIX,javsx.com
 DOMAIN-SUFFIX,javtag.net
 DOMAIN-SUFFIX,javtasty.com
-DOMAIN-SUFFIX,javteg.net
-DOMAIN-SUFFIX,javtiful.com
-DOMAIN-SUFFIX,gamerotic.com
-DOMAIN-SUFFIX,xx-map.com
-DOMAIN-SUFFIX,drweb-av.it
+DOMAIN-SUFFIX,geeksquad.com
+DOMAIN-SUFFIX,psb-ocenka.ru
+DOMAIN-SUFFIX,mediafiles-cisco.com
+DOMAIN-SUFFIX,javtrailers.com
+DOMAIN-SUFFIX,javtrust.com
 DOMAIN-SUFFIX,javtube.cc
 DOMAIN-SUFFIX,javtube.com
 DOMAIN-SUFFIX,javtube.net
@@ -15117,7 +15121,7 @@ DOMAIN-SUFFIX,media-imdb.com
 DOMAIN-SUFFIX,wistia.com
 DOMAIN-SUFFIX,mediachinese.com
 DOMAIN-SUFFIX,mediaclip.jp
-DOMAIN-SUFFIX,mediafiles-cisco.com
+DOMAIN-SUFFIX,javtorrent.me
 DOMAIN-SUFFIX,mediafreakcity.com
 DOMAIN-SUFFIX,mediamatters.org
 DOMAIN-SUFFIX,mediasama.com
@@ -19053,7 +19057,7 @@ DOMAIN-SUFFIX,proyectoclubes.com
 DOMAIN-SUFFIX,prpops.com
 DOMAIN-SUFFIX,prts.plus
 DOMAIN-SUFFIX,ps-exchange.com
-DOMAIN-SUFFIX,psb-ocenka.ru
+DOMAIN-SUFFIX,javtiful.com
 DOMAIN-SUFFIX,psb.ru
 DOMAIN-SUFFIX,psbank.ru
 DOMAIN-SUFFIX,pscdn.co
@@ -19819,8 +19823,8 @@ DOMAIN-SUFFIX,russiandesigncup.ru
 DOMAIN-SUFFIX,russianrape.org
 DOMAIN-SUFFIX,russoutdoor.ru
 DOMAIN-SUFFIX,rust-lang.org
-DOMAIN-SUFFIX,rustdesk.com
 DOMAIN-SUFFIX,12joursdecadeauxdeitunes.com
+DOMAIN-SUFFIX,rustore.ru
 DOMAIN-SUFFIX,rustore.team
 DOMAIN-SUFFIX,rustore.tv
 DOMAIN-SUFFIX,rustup.rs
