@@ -1,22 +1,29 @@
-# Shadowrocket geosite rulesets
+# Shadowrocket rulesets
 
 This repository generates Shadowrocket-compatible rule-set files from
 [`Loyalsoldier/v2ray-rules-dat`](https://github.com/Loyalsoldier/v2ray-rules-dat/tree/release)'s
-`geosite.dat` release artifact.
+`geosite.dat` and `geoip.dat` release artifacts.
 
 ## Update schedule
 
-The GitHub Actions workflow runs every day at **00:30 UTC**, downloads the latest `geosite.dat` from the `release`
-branch, splits every geosite entry, and writes one Shadowrocket rule-set file per
-entry into `rules/`.
+The GitHub Actions workflow runs every day at **00:00 UTC**, downloads the latest
+`geosite.dat` and `geoip.dat` from the `release` branch, then writes generated
+Shadowrocket rule-set files into:
+
+- `rules/` for domain rule sets converted from `geosite.dat`
+- `rules-ip/` for IP rule sets converted from `geoip.dat`
 
 ## File naming
 
-Generated files use the geosite rule-set name as their base name. For
-example, the `geolocation-cn` geosite entry is written to
-`rules/geolocation-cn.list`.
+Generated files use the original geosite or geoip rule-set name as their base
+name.
 
-## Rule conversion
+For example:
+
+- `geosite:geolocation-cn` is written to `rules/geolocation-cn.list`
+- `geoip:cn` is written to `rules-ip/cn.list`
+
+## Domain rule conversion
 
 The converter maps v2ray geosite domain types to Shadowrocket rule types as
 follows:
@@ -28,14 +35,11 @@ follows:
 | `Domain` | `DOMAIN-SUFFIX` |
 | `Full` | `DOMAIN` |
 
-## Manual generation
+## IP rule conversion
 
-```bash
-python scripts/geosite_to_shadowrocket.py
-```
+The converter maps every IPv4 and IPv6 CIDR in `geoip.dat` to Shadowrocket's
+unified `IP-CIDR` rule type:
 
-To convert a local `geosite.dat` file instead of downloading one:
-
-```bash
-python scripts/geosite_to_shadowrocket.py --input /path/to/geosite.dat
-```
+```text
+IP-CIDR,1.2.3.0/24
+IP-CIDR,2001:db8::/32
