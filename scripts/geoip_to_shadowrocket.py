@@ -1,233 +1,283 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+"""Download and convert v2ray geoip.dat into Shadowrocket rule-set files.
 
+The geoip.dat file is a protobuf-encoded GeoIPList. This script uses a
+small protobuf wire-format reader so the scheduled workflow does not need any
+third-party Python packages.
 """
-Convert v2ray geoip.dat to Shadowrocket IP ruleset.
 
-Input:
-  - geoip.dat
-
-Output:
-  - rules-ip/<country>.list
-
-Shadowrocket rule format:
-  IP-CIDR,1.2.3.0/24,no-resolve
-  IP-CIDR6,2001:db8::/32,no-resolve
-"""
+from __future__ import annotations
 
 import argparse
 import ipaddress
 import os
-import shutil
+import re
+import sys
+import tempfile
+import urllib.request
 from dataclasses import dataclass
-from typing import List, Tuple
+from pathlib import Path
+from typing import Iterable
 
 
-WIRE_VARINT = 0
-WIRE_LEN = 2
+DEFAULT_URL = "https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/geoip.dat"
+DEFAULT_OUTPUT_DIR = "rules-ip"
+
+_FILENAME_SAFE = re.compile(r"[^a-z0-9._!-]+")
 
 
-@dataclass
+@dataclass(frozen=True)
 class CIDR:
     ip: bytes
     prefix: int
 
 
-@dataclass
-class GeoIPEntry:
-    country_code: str
-    cidrs: List[CIDR]
+@dataclass(frozen=True)
+class GeoIP:
+    code: str
+    cidrs: tuple[CIDR, ...]
 
 
-def read_varint(data: bytes, pos: int) -> Tuple[int, int]:
-    value = 0
-    shift = 0
+class ProtoReader:
+    """Minimal protobuf wire-format reader for length-delimited messages."""
 
-    while True:
-        if pos >= len(data):
-            raise ValueError("Unexpected EOF while reading varint")
+    def __init__(self, data: bytes) -> None:
+        self.data = data
+        self.pos = 0
 
-        b = data[pos]
-        pos += 1
-        value |= (b & 0x7F) << shift
+    def eof(self) -> bool:
+        return self.pos >= len(self.data)
 
-        if not (b & 0x80):
-            return value, pos
+    def read_varint(self) -> int:
+        shift = 0
+        value = 0
+        while True:
+            if self.pos >= len(self.data):
+                raise ValueError("unexpected end of data while reading varint")
+            byte = self.data[self.pos]
+            self.pos += 1
+            value |= (byte & 0x7F) << shift
+            if not byte & 0x80:
+                return value
+            shift += 7
+            if shift >= 64:
+                raise ValueError("varint is too long")
 
-        shift += 7
-        if shift > 64:
-            raise ValueError("Varint is too long")
+    def read_key(self) -> tuple[int, int]:
+        key = self.read_varint()
+        return key >> 3, key & 0x07
 
+    def read_bytes(self) -> bytes:
+        length = self.read_varint()
+        end = self.pos + length
+        if end > len(self.data):
+            raise ValueError("length-delimited field exceeds input size")
+        value = self.data[self.pos:end]
+        self.pos = end
+        return value
 
-def read_key(data: bytes, pos: int) -> Tuple[int, int, int]:
-    key, pos = read_varint(data, pos)
-    field_number = key >> 3
-    wire_type = key & 0x07
-    return field_number, wire_type, pos
-
-
-def skip_field(data: bytes, pos: int, wire_type: int) -> int:
-    if wire_type == WIRE_VARINT:
-        _, pos = read_varint(data, pos)
-        return pos
-
-    if wire_type == WIRE_LEN:
-        length, pos = read_varint(data, pos)
-        return pos + length
-
-    raise ValueError(f"Unsupported wire type: {wire_type}")
+    def skip(self, wire_type: int) -> None:
+        if wire_type == 0:  # varint
+            self.read_varint()
+        elif wire_type == 1:  # 64-bit
+            self.pos += 8
+        elif wire_type == 2:  # length-delimited
+            self.read_bytes()
+        elif wire_type == 5:  # 32-bit
+            self.pos += 4
+        else:
+            raise ValueError(f"unsupported protobuf wire type: {wire_type}")
+        if self.pos > len(self.data):
+            raise ValueError("field exceeds input size")
 
 
 def parse_cidr(data: bytes) -> CIDR:
-    pos = 0
+    """Parse v2ray GeoIP CIDR message.
+
+    v2ray geoip CIDR fields:
+    - field 1: ip bytes
+    - field 2: prefix uint32
+    """
+
+    reader = ProtoReader(data)
     ip = b""
     prefix = 0
 
-    while pos < len(data):
-        field_number, wire_type, pos = read_key(data, pos)
-
-        if field_number == 1 and wire_type == WIRE_LEN:
-            length, pos = read_varint(data, pos)
-            ip = data[pos:pos + length]
-            pos += length
-
-        elif field_number == 2 and wire_type == WIRE_VARINT:
-            prefix, pos = read_varint(data, pos)
-
+    while not reader.eof():
+        field, wire_type = reader.read_key()
+        if field == 1 and wire_type == 2:
+            ip = reader.read_bytes()
+        elif field == 2 and wire_type == 0:
+            prefix = reader.read_varint()
         else:
-            pos = skip_field(data, pos, wire_type)
+            reader.skip(wire_type)
 
     return CIDR(ip=ip, prefix=prefix)
 
 
-def parse_geoip_entry(data: bytes) -> GeoIPEntry:
-    pos = 0
-    country_code = ""
-    cidrs: List[CIDR] = []
+def parse_geoip(data: bytes) -> GeoIP:
+    """Parse v2ray GeoIP message.
 
-    while pos < len(data):
-        field_number, wire_type, pos = read_key(data, pos)
+    v2ray geoip GeoIP fields:
+    - field 1: country_code string
+    - field 2: repeated CIDR
+    - field 3: inverse_match bool, ignored here
+    """
 
-        # message GeoIP {
-        #   string country_code = 1;
-        #   repeated CIDR cidr = 2;
-        # }
-        if field_number == 1 and wire_type == WIRE_LEN:
-            length, pos = read_varint(data, pos)
-            country_code = data[pos:pos + length].decode("utf-8")
-            pos += length
+    reader = ProtoReader(data)
+    code = ""
+    cidrs: list[CIDR] = []
 
-        elif field_number == 2 and wire_type == WIRE_LEN:
-            length, pos = read_varint(data, pos)
-            cidrs.append(parse_cidr(data[pos:pos + length]))
-            pos += length
-
+    while not reader.eof():
+        field, wire_type = reader.read_key()
+        if field == 1 and wire_type == 2:
+            code = reader.read_bytes().decode("utf-8")
+        elif field == 2 and wire_type == 2:
+            cidr = parse_cidr(reader.read_bytes())
+            if cidr.ip:
+                cidrs.append(cidr)
         else:
-            pos = skip_field(data, pos, wire_type)
+            reader.skip(wire_type)
 
-    return GeoIPEntry(country_code=country_code, cidrs=cidrs)
+    return GeoIP(code=code, cidrs=tuple(cidrs))
 
 
-def parse_geoip_list(data: bytes) -> List[GeoIPEntry]:
-    pos = 0
-    entries: List[GeoIPEntry] = []
+def parse_geoip_list(data: bytes) -> list[GeoIP]:
+    """Parse v2ray GeoIPList message.
 
-    while pos < len(data):
-        field_number, wire_type, pos = read_key(data, pos)
+    v2ray geoip GeoIPList fields:
+    - field 1: repeated GeoIP
+    """
 
-        # message GeoIPList {
-        #   repeated GeoIP entry = 1;
-        # }
-        if field_number == 1 and wire_type == WIRE_LEN:
-            length, pos = read_varint(data, pos)
-            entries.append(parse_geoip_entry(data[pos:pos + length]))
-            pos += length
+    reader = ProtoReader(data)
+    entries: list[GeoIP] = []
 
+    while not reader.eof():
+        field, wire_type = reader.read_key()
+        if field == 1 and wire_type == 2:
+            entry = parse_geoip(reader.read_bytes())
+            if entry.code:
+                entries.append(entry)
         else:
-            pos = skip_field(data, pos, wire_type)
+            reader.skip(wire_type)
 
     return entries
 
 
-def cidr_to_shadowrocket_rule(cidr: CIDR) -> str:
-    if len(cidr.ip) == 4:
-        network = ipaddress.IPv4Network((int.from_bytes(cidr.ip, "big"), cidr.prefix), strict=False)
-        return f"IP-CIDR,{network},no-resolve"
+def cidr_to_text(cidr: CIDR) -> str | None:
+    try:
+        address = ipaddress.ip_address(cidr.ip)
+        network = ipaddress.ip_network((address, cidr.prefix), strict=False)
+    except ValueError:
+        return None
 
-    if len(cidr.ip) == 16:
-        network = ipaddress.IPv6Network((int.from_bytes(cidr.ip, "big"), cidr.prefix), strict=False)
-        return f"IP-CIDR6,{network},no-resolve"
-
-    raise ValueError(f"Invalid IP length: {len(cidr.ip)}")
+    return f"{network.network_address}/{network.prefixlen}"
 
 
-def safe_filename(country_code: str) -> str:
-    return country_code.strip().lower().replace(":", "-")
+def shadowrocket_lines(entry: GeoIP) -> list[str]:
+    lines: list[str] = []
+    seen: set[str] = set()
 
-
-def write_rules(entries: List[GeoIPEntry], output_dir: str, clean: bool = True) -> None:
-    if clean and os.path.isdir(output_dir):
-        shutil.rmtree(output_dir)
-
-    os.makedirs(output_dir, exist_ok=True)
-
-    for entry in entries:
-        if not entry.country_code:
+    for cidr in entry.cidrs:
+        cidr_text = cidr_to_text(cidr)
+        if cidr_text is None:
             continue
 
-        filename = safe_filename(entry.country_code) + ".list"
-        output_path = os.path.join(output_dir, filename)
+        # Shadowrocket rule-set syntax uses IP-CIDR for both IPv4 and IPv6.
+        # Do not append no-resolve here; users can add it at include/use time.
+        line = f"IP-CIDR,{cidr_text}"
+        if line not in seen:
+            seen.add(line)
+            lines.append(line)
 
-        rules = []
-        for cidr in entry.cidrs:
-            try:
-                rules.append(cidr_to_shadowrocket_rule(cidr))
-            except ValueError:
-                continue
-
-        rules = sorted(set(rules))
-
-        with open(output_path, "w", encoding="utf-8", newline="\n") as f:
-            f.write(f"# {entry.country_code}\n")
-            f.write(f"# Converted from geoip.dat for Shadowrocket\n")
-            for rule in rules:
-                f.write(rule + "\n")
-
-        print(f"Generated {output_path}: {len(rules)} rules")
+    return lines
 
 
-def main() -> None:
+def normalize_ruleset_name(code: str) -> str:
+    normalized = _FILENAME_SAFE.sub("_", code.strip().lower()).strip(".-_")
+    if not normalized:
+        raise ValueError(f"invalid geoip code for filename: {code!r}")
+    return normalized
+
+
+def write_rulesets(entries: Iterable[GeoIP], output_dir: Path, extension: str) -> int:
+    output_dir.mkdir(parents=True, exist_ok=True)
+    if extension:
+        for stale_file in output_dir.glob(f"*{extension}"):
+            stale_file.unlink()
+
+    count = 0
+
+    for entry in entries:
+        ruleset_name = normalize_ruleset_name(entry.code)
+        path = output_dir / f"{ruleset_name}{extension}"
+        lines = shadowrocket_lines(entry)
+        content = "\n".join(lines)
+        if content:
+            content += "\n"
+        path.write_text(content, encoding="utf-8", newline="\n")
+        count += 1
+
+    return count
+
+
+def download(url: str, destination: Path) -> None:
+    request = urllib.request.Request(url, headers={"User-Agent": "ruleset-geoip-converter"})
+    with urllib.request.urlopen(request, timeout=120) as response:
+        destination.write_bytes(response.read())
+
+
+def load_geoip_dat(args: argparse.Namespace) -> bytes:
+    if args.input:
+        return Path(args.input).read_bytes()
+
+    with tempfile.NamedTemporaryFile(delete=False) as temp_file:
+        temp_path = Path(temp_file.name)
+
+    try:
+        download(args.url, temp_path)
+        return temp_path.read_bytes()
+    finally:
+        try:
+            temp_path.unlink()
+        except FileNotFoundError:
+            pass
+
+
+def parse_args(argv: list[str]) -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Convert v2ray geoip.dat to Shadowrocket IP ruleset"
+        description="Convert v2ray geoip.dat into Shadowrocket rule-set files."
     )
     parser.add_argument(
-        "-i",
+        "--url",
+        default=os.environ.get("GEOIP_DAT_URL", DEFAULT_URL),
+        help=f"geoip.dat URL (default: {DEFAULT_URL})",
+    )
+    parser.add_argument(
         "--input",
-        default="geoip.dat",
-        help="Path to geoip.dat, default: geoip.dat",
+        help="read a local geoip.dat file instead of downloading one",
     )
     parser.add_argument(
-        "-o",
-        "--output",
-        default="rules-ip",
-        help="Output directory, default: rules-ip",
+        "--output-dir",
+        default=DEFAULT_OUTPUT_DIR,
+        help=f"directory for generated rule-set files (default: {DEFAULT_OUTPUT_DIR})",
     )
     parser.add_argument(
-        "--no-clean",
-        action="store_true",
-        help="Do not clean output directory before generating",
+        "--extension",
+        default=".list",
+        help="generated file extension; use an empty string for extensionless files",
     )
+    return parser.parse_args(argv)
 
-    args = parser.parse_args()
 
-    with open(args.input, "rb") as f:
-        data = f.read()
-
+def main(argv: list[str] | None = None) -> int:
+    args = parse_args(argv or sys.argv[1:])
+    data = load_geoip_dat(args)
     entries = parse_geoip_list(data)
-    write_rules(entries, args.output, clean=not args.no_clean)
-
-    print(f"Done. Generated {len(entries)} geoip rule files in {args.output}/")
+    count = write_rulesets(entries, Path(args.output_dir), args.extension)
+    print(f"Generated {count} Shadowrocket IP rule-set files in {args.output_dir}")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())
