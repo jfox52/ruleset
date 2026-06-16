@@ -1,5 +1,5 @@
-DOMAIN,mdn.mozillademos.org
 DOMAIN,mozilla-ohttp.fastly-edge.com
+DOMAIN,mdn.mozillademos.org
 DOMAIN-SUFFIX,mozilla.pe
 DOMAIN-SUFFIX,interforest.org
 DOMAIN-SUFFIX,bugzilla.org
@@ -7,7 +7,7 @@ DOMAIN-SUFFIX,detodosparatodos.org
 DOMAIN-SUFFIX,discovershiretoko.org
 DOMAIN-SUFFIX,ecmascript.org
 DOMAIN-SUFFIX,extensionworkshop.com
-DOMAIN-SUFFIX,firefoxusercontent.com
+DOMAIN-SUFFIX,mdnyalp.dev
 DOMAIN-SUFFIX,foxkeh.jp
 DOMAIN-SUFFIX,getfirebug.com
 DOMAIN-SUFFIX,getpersonas.com
@@ -54,13 +54,13 @@ DOMAIN-SUFFIX,publicsuffix.org
 DOMAIN-SUFFIX,seamonkey-project.org
 DOMAIN-SUFFIX,thunderbird.net
 DOMAIN-SUFFIX,webmademovies.org
+DOMAIN-SUFFIX,extendfirefox.com
+DOMAIN-SUFFIX,firefox.com
+DOMAIN-SUFFIX,firefox.hu
+DOMAIN-SUFFIX,firefoxtweetmachine.com
+DOMAIN-SUFFIX,firefoxusercontent.com
 DOMAIN-SUFFIX,mdn.dev
 DOMAIN-SUFFIX,mdnplay.dev
-DOMAIN-SUFFIX,mdnyalp.dev
-DOMAIN-SUFFIX,firefoxtweetmachine.com
-DOMAIN-SUFFIX,firefox.hu
-DOMAIN-SUFFIX,firefox.com
-DOMAIN-SUFFIX,extendfirefox.com
 DOMAIN-SUFFIX,mozilla.org.uk
 DOMAIN,ads-img.mozilla.org
 DOMAIN,ads.mozilla.org
