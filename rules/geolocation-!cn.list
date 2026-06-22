@@ -713,6 +713,7 @@ DOMAIN,wwis-dubc1-vip97.adobe.com
 DOMAIN,wwis-dubc1-vip98.adobe.com
 DOMAIN,wwis-dubc1-vip99.adobe.com
 DOMAIN,www-cdn.icloud.com.akadns.net
+DOMAIN,www.microsoft.com
 DOMAIN,www.quora.com.cdn.cloudflare.net
 DOMAIN,yangzhi.app
 DOMAIN,yt3.googleusercontent.com
@@ -793,8 +794,8 @@ DOMAIN-SUFFIX,aws
 DOMAIN-SUFFIX,apple
 DOMAIN-SUFFIX,android
 DOMAIN-SUFFIX,amazon
-DOMAIN-SUFFIX,ruptly.agency
-DOMAIN-SUFFIX,bestbuygsm.com
+DOMAIN-SUFFIX,ruptly.tv
+DOMAIN-SUFFIX,dellemcevents.com
 DOMAIN-SUFFIX,1337x.is
 DOMAIN-SUFFIX,1337x.st
 DOMAIN-SUFFIX,1337x.to
@@ -2394,7 +2395,7 @@ DOMAIN-SUFFIX,analpornonly.com
 DOMAIN-SUFFIX,analpornosex.com
 DOMAIN-SUFFIX,analqts.com
 DOMAIN-SUFFIX,analsaga.com
-DOMAIN-SUFFIX,analscreen.com
+DOMAIN-SUFFIX,jitouch.com
 DOMAIN-SUFFIX,analtime.org
 DOMAIN-SUFFIX,analvids.com
 DOMAIN-SUFFIX,analytictech.com
@@ -2653,7 +2654,7 @@ DOMAIN-SUFFIX,z-library.se
 DOMAIN-SUFFIX,z-library.ec
 DOMAIN-SUFFIX,apple.cz
 DOMAIN-SUFFIX,apple.de
-DOMAIN-SUFFIX,jitouch.com
+DOMAIN-SUFFIX,apple.dk
 DOMAIN-SUFFIX,apple.ee
 DOMAIN-SUFFIX,apple.es
 DOMAIN-SUFFIX,apple.eu
@@ -4084,7 +4085,7 @@ DOMAIN-SUFFIX,bestbuycharityclassic.com
 DOMAIN-SUFFIX,bestbuycoffeemakers.com
 DOMAIN-SUFFIX,bestbuyethics.com
 DOMAIN-SUFFIX,bestbuyforbusiness.ca
-DOMAIN-SUFFIX,jitsi.org
+DOMAIN-SUFFIX,bestbuygsm.com
 DOMAIN-SUFFIX,bestbuyideax.com
 DOMAIN-SUFFIX,bestbuyphotoworkshoptours.com
 DOMAIN-SUFFIX,bestbuyrewards.com
@@ -7152,7 +7153,7 @@ DOMAIN-SUFFIX,dellcustomerservice.com
 DOMAIN-SUFFIX,delldesignsystem.com
 DOMAIN-SUFFIX,delldrivers.com
 DOMAIN-SUFFIX,dellemc.com
-DOMAIN-SUFFIX,dellemcevents.com
+DOMAIN-SUFFIX,jira.com
 DOMAIN-SUFFIX,delloutlet.com
 DOMAIN-SUFFIX,dellpoweredge.com
 DOMAIN-SUFFIX,dellpowersolutions.com
@@ -10697,8 +10698,10 @@ DOMAIN-SUFFIX,gofile.me
 DOMAIN-SUFFIX,gofucker.com
 DOMAIN-SUFFIX,gofuckmenow.com
 DOMAIN-SUFFIX,gofundme.com
+DOMAIN-SUFFIX,gog-services.com
 DOMAIN-SUFFIX,gog-statics.com
 DOMAIN-SUFFIX,gog.com
+DOMAIN-SUFFIX,gogalaxy.com
 DOMAIN-SUFFIX,gogettaxi.org
 DOMAIN-SUFFIX,gogle.com
 DOMAIN-SUFFIX,gogo-load.com
@@ -13777,11 +13780,11 @@ DOMAIN-SUFFIX,jinrieluosi.cn
 DOMAIN-SUFFIX,jinrizhiyi.news
 DOMAIN-SUFFIX,jintian.net
 DOMAIN-SUFFIX,jinx.com
-DOMAIN-SUFFIX,jira-tcsbank.ru
-DOMAIN-SUFFIX,jira.com
-DOMAIN-SUFFIX,apple.dk
+DOMAIN-SUFFIX,porngladiator.com
 DOMAIN-SUFFIX,1337x.gd
-DOMAIN-SUFFIX,mindmeld.com
+DOMAIN-SUFFIX,analscreen.com
+DOMAIN-SUFFIX,jitsi.org
+DOMAIN-SUFFIX,jiuse.ai
 DOMAIN-SUFFIX,xbooru.com
 DOMAIN-SUFFIX,jiuse.icu
 DOMAIN-SUFFIX,jiuse.io
@@ -15702,7 +15705,7 @@ DOMAIN-SUFFIX,mindbox.ru
 DOMAIN-SUFFIX,mindbox.site
 DOMAIN-SUFFIX,mindbox.so
 DOMAIN-SUFFIX,mindgeek.com
-DOMAIN-SUFFIX,jiuse.ai
+DOMAIN-SUFFIX,mindmeld.com
 DOMAIN-SUFFIX,mindrolling.org
 DOMAIN-SUFFIX,minecraft-services.net
 DOMAIN-SUFFIX,minecraft.net
@@ -18969,7 +18972,7 @@ DOMAIN-SUFFIX,porngamesverse.com
 DOMAIN-SUFFIX,porngeek.com
 DOMAIN-SUFFIX,porngem.com
 DOMAIN-SUFFIX,porngifs.xxx
-DOMAIN-SUFFIX,porngladiator.com
+DOMAIN-SUFFIX,jira-tcsbank.ru
 DOMAIN-SUFFIX,porngo.com
 DOMAIN-SUFFIX,porngo.tube
 DOMAIN-SUFFIX,weinvoiceit.com
@@ -20252,8 +20255,8 @@ DOMAIN-SUFFIX,runningnike.com
 DOMAIN-SUFFIX,runporn.com
 DOMAIN-SUFFIX,runwayescorts.com
 DOMAIN-SUFFIX,rupress.org
+DOMAIN-SUFFIX,ruptly.agency
 DOMAIN-SUFFIX,000webhost.com
-DOMAIN-SUFFIX,ruptly.tv
 DOMAIN-SUFFIX,ruptly.video
 DOMAIN-SUFFIX,rurtnews.com
 DOMAIN-SUFFIX,rusfinance.ru
