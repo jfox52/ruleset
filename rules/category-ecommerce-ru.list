@@ -1,5 +1,8 @@
-DOMAIN-SUFFIX,avito.ru
-DOMAIN-SUFFIX,avito.st
+DOMAIN-SUFFIX,wbmail.ru
+DOMAIN-SUFFIX,vamzakaz.ru
+DOMAIN-SUFFIX,funpay.com
+DOMAIN-SUFFIX,funpay.ru
+DOMAIN-SUFFIX,sfunpay.com
 DOMAIN-SUFFIX,ozon.travel
 DOMAIN-SUFFIX,ozonstatus.ru
 DOMAIN-SUFFIX,ozoncard.ru
@@ -51,7 +54,7 @@ DOMAIN-SUFFIX,rwbautomation.ru
 DOMAIN-SUFFIX,rwbautomation.tech
 DOMAIN-SUFFIX,rwbgeo.ru
 DOMAIN-SUFFIX,russoutdoor.ru
-DOMAIN-SUFFIX,vamzakaz.ru
+DOMAIN-SUFFIX,wbmotivator.ru
 DOMAIN-SUFFIX,vsemrabota.ru
 DOMAIN-SUFFIX,warehouse.domains
 DOMAIN-SUFFIX,wb-bank.ru
@@ -67,9 +70,9 @@ DOMAIN-SUFFIX,wbautomation.tech
 DOMAIN-SUFFIX,wbbasket.ru
 DOMAIN-SUFFIX,wbdubna.ru
 DOMAIN-SUFFIX,wbkids.ru
-DOMAIN-SUFFIX,wbmail.ru
-DOMAIN-SUFFIX,wbmotivator.ru
-DOMAIN-SUFFIX,wbpay.ru
+DOMAIN-SUFFIX,weldberies.ru
+DOMAIN-SUFFIX,flowwow.com
+DOMAIN-SUFFIX,wildberries.lt
 DOMAIN-SUFFIX,wbr.by
 DOMAIN-SUFFIX,wbrep.ru
 DOMAIN-SUFFIX,wbstatic.net
@@ -86,7 +89,7 @@ DOMAIN-SUFFIX,wildberries.eu
 DOMAIN-SUFFIX,wildberries.ge
 DOMAIN-SUFFIX,wildberries.kg
 DOMAIN-SUFFIX,wildberries.kz
-DOMAIN-SUFFIX,wildberries.lt
+DOMAIN-SUFFIX,wbpay.ru
 DOMAIN-SUFFIX,wildberries.ru
 DOMAIN-SUFFIX,wildberries.tj
 DOMAIN-SUFFIX,wildberries.tm
@@ -101,7 +104,7 @@ DOMAIN-SUFFIX,walderis.ru
 DOMAIN-SUFFIX,wallberis.ru
 DOMAIN-SUFFIX,weildberries.ru
 DOMAIN-SUFFIX,welberris.ru
-DOMAIN-SUFFIX,weldberies.ru
+DOMAIN-SUFFIX,flowwow-images.com
 DOMAIN-SUFFIX,weldberres.ru
 DOMAIN-SUFFIX,weldberric.ru
 DOMAIN-SUFFIX,wellberies.ru
@@ -135,12 +138,13 @@ DOMAIN-SUFFIX,wldberris.ru
 DOMAIN-SUFFIX,wolfberries.ru
 DOMAIN-SUFFIX,xn--80acbjgmges7ca.xn--p1ai
 DOMAIN-SUFFIX,xn--80acbjgsdq2cl.xn--p1ai
-DOMAIN-SUFFIX,ozon.com.by
+DOMAIN-SUFFIX,avito.ru
+DOMAIN-SUFFIX,avito.st
 DOMAIN-SUFFIX,ozonru.co.il
 DOMAIN-SUFFIX,ozon.com.kz
 DOMAIN-SUFFIX,ewisdom.us.kg
+DOMAIN-SUFFIX,ozon.com.by
 DOMAIN-SUFFIX,wildberries.co.il
-DOMAIN,stats.avito.ru
 DOMAIN,ad.ozone.ru
 DOMAIN,adv.ozon.ru
 DOMAIN,agency-adv.ozon.ru
@@ -174,3 +178,4 @@ DOMAIN,marketing-info.wildberries.ru
 DOMAIN,marketplace-sentry.wb.ru
 DOMAIN,sentry.wb.ru
 DOMAIN,web-analytics.wildberries.ru
+DOMAIN,stats.avito.ru
