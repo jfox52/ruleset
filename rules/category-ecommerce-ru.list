@@ -1,5 +1,9 @@
-DOMAIN-SUFFIX,wbr.by
-DOMAIN-SUFFIX,wildberries.ru
+DOMAIN-SUFFIX,avito.ru
+DOMAIN-SUFFIX,avito.st
+DOMAIN-SUFFIX,flowwow-images.com
+DOMAIN-SUFFIX,flowwow.com
+DOMAIN-SUFFIX,funpay.com
+DOMAIN-SUFFIX,funpay.ru
 DOMAIN-SUFFIX,sfunpay.com
 DOMAIN-SUFFIX,ozon.travel
 DOMAIN-SUFFIX,ozon.tm
@@ -33,7 +37,7 @@ DOMAIN-SUFFIX,ozonpartners.ru
 DOMAIN-SUFFIX,ozonrocet.by
 DOMAIN-SUFFIX,ozonroket.by
 DOMAIN-SUFFIX,xn----8sbahiqzthbd0bn.xn--p1ai
-DOMAIN-SUFFIX,funpay.com
+DOMAIN-SUFFIX,ozonru.com
 DOMAIN-SUFFIX,ozonru.eu
 DOMAIN-SUFFIX,ozonru.me
 DOMAIN-SUFFIX,ozonsport.ru
@@ -70,9 +74,9 @@ DOMAIN-SUFFIX,wbcontent.net
 DOMAIN-SUFFIX,wbdubna.ru
 DOMAIN-SUFFIX,wbkids.ru
 DOMAIN-SUFFIX,wbmail.ru
-DOMAIN-SUFFIX,wildberries.am
-DOMAIN-SUFFIX,funpay.ru
-DOMAIN-SUFFIX,ozonru.com
+DOMAIN-SUFFIX,wbmotivator.ru
+DOMAIN-SUFFIX,wbpay.ru
+DOMAIN-SUFFIX,wbr.by
 DOMAIN-SUFFIX,wbrep.ru
 DOMAIN-SUFFIX,wbstatic.net
 DOMAIN-SUFFIX,wbstatic.ru
@@ -81,7 +85,7 @@ DOMAIN-SUFFIX,wbwh.ru
 DOMAIN-SUFFIX,wbwh.tech
 DOMAIN-SUFFIX,wibes.com
 DOMAIN-SUFFIX,wibes.ru
-DOMAIN-SUFFIX,wbmotivator.ru
+DOMAIN-SUFFIX,wildberries.am
 DOMAIN-SUFFIX,wildberries.by
 DOMAIN-SUFFIX,wildberries.es
 DOMAIN-SUFFIX,wildberries.eu
@@ -89,7 +93,7 @@ DOMAIN-SUFFIX,wildberries.ge
 DOMAIN-SUFFIX,wildberries.kg
 DOMAIN-SUFFIX,wildberries.kz
 DOMAIN-SUFFIX,wildberries.lt
-DOMAIN-SUFFIX,wbpay.ru
+DOMAIN-SUFFIX,wildberries.ru
 DOMAIN-SUFFIX,wildberries.tj
 DOMAIN-SUFFIX,wildberries.tm
 DOMAIN-SUFFIX,wildberries.uz
@@ -137,15 +141,12 @@ DOMAIN-SUFFIX,wldberris.ru
 DOMAIN-SUFFIX,wolfberries.ru
 DOMAIN-SUFFIX,xn--80acbjgmges7ca.xn--p1ai
 DOMAIN-SUFFIX,xn--80acbjgsdq2cl.xn--p1ai
-DOMAIN-SUFFIX,avito.ru
-DOMAIN-SUFFIX,flowwow.com
-DOMAIN-SUFFIX,flowwow-images.com
-DOMAIN-SUFFIX,avito.st
-DOMAIN-SUFFIX,ewisdom.us.kg
-DOMAIN-SUFFIX,ozon.com.kz
-DOMAIN-SUFFIX,ozonru.co.il
 DOMAIN-SUFFIX,ozon.com.by
+DOMAIN-SUFFIX,ozonru.co.il
+DOMAIN-SUFFIX,ozon.com.kz
+DOMAIN-SUFFIX,ewisdom.us.kg
 DOMAIN-SUFFIX,wildberries.co.il
+DOMAIN,stats.avito.ru
 DOMAIN,ad.ozone.ru
 DOMAIN,adv.ozon.ru
 DOMAIN,agency-adv.ozon.ru
@@ -179,4 +180,3 @@ DOMAIN,marketing-info.wildberries.ru
 DOMAIN,marketplace-sentry.wb.ru
 DOMAIN,sentry.wb.ru
 DOMAIN,web-analytics.wildberries.ru
-DOMAIN,stats.avito.ru
