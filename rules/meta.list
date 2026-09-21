@@ -4,10 +4,6 @@ DOMAIN-SUFFIX,atmeta.com
 DOMAIN-SUFFIX,llama.com
 DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,meta.com
-DOMAIN-SUFFIX,fbmessenger.com
-DOMAIN-SUFFIX,m.me
-DOMAIN-SUFFIX,messenger.com
-DOMAIN-SUFFIX,nbabot.net
 DOMAIN-SUFFIX,binoculus.com
 DOMAIN-SUFFIX,buyoculus.com
 DOMAIN-SUFFIX,ocul.us
@@ -134,10 +130,9 @@ DOMAIN-SUFFIX,facebook.ca
 DOMAIN-SUFFIX,facebook.cc
 DOMAIN-SUFFIX,facebook.com
 DOMAIN-SUFFIX,facebook.design
-DOMAIN-SUFFIX,facebook.net
 DOMAIN-SUFFIX,facebook.hu
 DOMAIN-SUFFIX,facebook.in
-DOMAIN-SUFFIX,fecebook.net
+DOMAIN-SUFFIX,facebook.net
 DOMAIN-SUFFIX,facebook.nl
 DOMAIN-SUFFIX,facebook.org
 DOMAIN-SUFFIX,facebook.se
@@ -344,6 +339,7 @@ DOMAIN-SUFFIX,fecbbok.com
 DOMAIN-SUFFIX,fecbooc.com
 DOMAIN-SUFFIX,fecbook.com
 DOMAIN-SUFFIX,feceboock.com
+DOMAIN-SUFFIX,fecebook.net
 DOMAIN-SUFFIX,feceboox.com
 DOMAIN-SUFFIX,fececbook.com
 DOMAIN-SUFFIX,feook.com
@@ -413,6 +409,7 @@ DOMAIN-SUFFIX,sportsfacebook.com
 DOMAIN-SUFFIX,sportstream.com
 DOMAIN-SUFFIX,supportfacebook.com
 DOMAIN-SUFFIX,terragraph.com
+DOMAIN-SUFFIX,tfbnw.net
 DOMAIN-SUFFIX,thefacebook.com
 DOMAIN-SUFFIX,thefacebook.net
 DOMAIN-SUFFIX,thefind.com
@@ -545,6 +542,10 @@ DOMAIN-SUFFIX,online-instagram.com
 DOMAIN-SUFFIX,onlineinstagram.com
 DOMAIN-SUFFIX,web-instagram.net
 DOMAIN-SUFFIX,wwwinstagram.com
+DOMAIN-SUFFIX,fbmessenger.com
+DOMAIN-SUFFIX,m.me
+DOMAIN-SUFFIX,messenger.com
+DOMAIN-SUFFIX,nbabot.net
 DOMAIN-SUFFIX,graph.whatsapp.com
 DOMAIN-SUFFIX,graph.whatsapp.net
 DOMAIN-SUFFIX,analytics.facebook.com
